@@ -1,5 +1,7 @@
 CursoaslBarquisimeto
 ====================
+ronald caruci
+rdcaruci@gmail.com
 victor perez
 victorroman12@gmail.com
 CursoaslBarquisimeto
