@@ -1,0 +1,55 @@
+Practica
+
+- Que permisologia tiene los siguientes archivos
+rwxrwx--- 770 
+--------- 000
+rw-rw---- 660
+r-xr-xr-x 555
+---rw-r-x 065
+--x--x--x 111
+
+
+- Ejecuten la búsqueda con grep buscando cunaguaro y guarde la salida en un archivo llamado
+firefox.txt
+root@canaima-popular:/# ps -aux | grep cunaguaro > firefox.txt
+
+
+-Cuanto pesa tu /home/ y cuanto pesa /etc
+
+904252	/home
+6044	/etc
+
+- Se requiere guardar un archivo dentro de la configuración de la memoria del computador dentro
+de un archivo llamado memoria.txt
+root@canaima-popular:/# cat /proc/meminfo > memoria.txt
+
+-Se requiere guardar toda la configuración de la versión del kernel en un archivo llamado kernel.txt
+root@canaima-popular:/# uname -a > kernel.txt
+
+- Como matamos un proceso del computador
+#kill -9 4762
+- Que hace el respectivo comando $cat toto > toto2
+copia el contenito del archivo toto al archivo toto2
+
+- Como puedo visualizar las particiones del disco duro
+
+ls -al /home/jf/ > toto.txt echo "Toto" > /etc/miarchivodeconfiguración
+falto la | antes del echo, debe ser asi:
+crear el directorio jf en home
+root@canaima-popular:/home/soporte/JavierParra# ls -al /home/jf/ > toto.txt | echo Toto > /etc/miarchivodeconfiguración
+
+
+- Cree una carpeta con tu nombre
+- Dentro de la carpeta, creamos tres archivos de nombre c1 c2 c3
+- Guardamos en el c1 su nombre completo
+- Guardamos en el c2 la cédula
+- Guardamos el c3 el correo electrónico
+
+- Describa a continuación la función de los siguientes directorios
+/bin información binaria
+/home/ el directorio que guarda la mayoria de los archivos de los usuarios
+/media  donde se ven los dispositivos de almacenamiento conectado al pc
+/var informacion de las variables
+/
+/sbin comandos del root 
+/boot para el boteo del sistema operativo
