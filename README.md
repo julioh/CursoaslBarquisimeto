@@ -17,11 +17,20 @@ victorroman12@gmail.com
 >>>>>>> 4b795837a7f3d6678ed21dacc9559ac96049b191
 CursoaslBarquisimeto
 Julio Hernandez julio.hernandez@delbosquetechnology.com
+<<<<<<< HEAD
+
+Gilberto Pérez
+gilbertoperez_036@hotmail.com
+=======
 José Cadenas jdcadenas@gmail.com
 Aguedo Rodriguez
 rageudo08@gmail.com
 <<<<<<< HEAD
+<<<<<<< HEAD
 Julio Matheus juliomatheus@gmail.com
+=======
+>>>>>>> 4b795837a7f3d6678ed21dacc9559ac96049b191
+>>>>>>> b8a04b6592935c45422ff428d010213c3bad3cd6
 =======
 Javier Parra javierparra76@yahoo.com
 
