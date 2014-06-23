@@ -20,7 +20,7 @@ df /home           y       df /etc
 
 - Se requiere guardar un archivo dentro de la configuración de la memoria del computador dentro
 de un archivo llamado memoria.txt
-cat acopiar.txt>/memoria.txt 
+cat /proc/meminfo >memoria.txt 
 
 -Se requiere guardar toda la configuración de la versión del kernel en un archivo llamado kernel.txt
 uname -a >kernel.txt
@@ -33,6 +33,8 @@ copia el contenido del archivo toto en toto2
 
 - Como puedo visualizar las particiones del disco duro
 fdisk -l
+
+-
 
 - Cree una carpeta con tu nombre
 mkdir JoseLopez
