@@ -9,3 +9,5 @@ Julio Hernandez julio.hernandez@delbosquetechnology.com
 José Cadenas jdcadenas@gmail.com
 Aguedo Rodriguez
 rageudo08@gmail.com
+Javier Parra javierparra76@yahoo.com
+
