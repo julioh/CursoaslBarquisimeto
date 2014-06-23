@@ -1,0 +1,74 @@
+Practica
+
+- Que permisologia tiene los siguientes archivos
+rwxrwx--- 770 
+--------- 000
+rw-rw---- 660
+r-xr-xr-x 555
+---rw-r-x 065
+--x--x--x 111
+
+
+- Ejecuten la búsqueda con grep buscando cunaguaro y guarde la salida en un archivo llamado
+firefox.txt
+ps aux | grep cunaguaro>>cunaguaro.txt
+
+-Cuanto pesa tu /home/ y cuanto pesa /etc
+du -sh /home
+	182M /home
+du -sh /etc
+	6,0M /etc
+
+- Se requiere guardar un archivo dentro de la configuración de la memoria del computador dentro
+de un archivo llamado memoria.txt
+	free -h >memoria.txt
+
+-Se requiere guardar toda la configuración de la versión del kernel en un archivo llamado kernel.txt
+	uname -a >kernel.txt
+
+- Como matamos un proceso del computador
+	*Primero buscar el proceso para identificar su id
+		ps -aux | grep nombreproceso
+	*Una vez identificado procedemos a matarlo con la linea de comando y empleando el id del proceso
+		kill -9 idproceso
+	
+- Que hace el respectivo comando $cat toto > toto2
+	Crea un archivo llamado toto2 con el contenido e informacion del archivo toto
+
+- Como puedo visualizar las particiones del disco duro
+
+
+ls -al /home/jf/ > toto.txt echo "Toto" > /etc/miarchivodeconfiguración
+
+
+- Cree una carpeta con tu nombre
+	mkdir ronald
+
+- Dentro de la carpeta, creamos tres archivos de nombre c1 c2 c3
+	cd ronald
+	touch c1 c2 c3
+
+- Guardamos en el c1 su nombre completo
+	cat>>c1
+		ronald caruci
+
+- Guardamos en el c2 la cédula
+	cat>>c2
+		14160656
+
+- Guardamos el c3 el correo electrónico
+	cat>>c3
+		rdcaruci@gmail.com
+
+- Describa a continuación la función de los siguientes directorios
+/bin
+Contiene los archivos binarios
+/home/
+Directorio del usuario
+/media
+Contiene la información de los dispositivos instalados
+/var
+/
+/sbin
+/boot
+Contiene la informacion de inicio del sistema
