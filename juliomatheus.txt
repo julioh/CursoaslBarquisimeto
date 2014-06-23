@@ -1,0 +1,68 @@
+Practica
+
+- Que permisologia tiene los siguientes archivos
+rwxrwx--- 770 
+--------- 000
+rw-rw---- 660
+r-xr-xr-x 555
+---rw-r-x 035
+--x--x--x 111
+
+
+- Ejecuten la búsqueda con grep buscando cunaguaro y guarde la salida en un archivo llamado
+firefox.txt
+ ps aux | grep cunaguaro >>firefox.txt
+
+
+
+-Cuanto pesa tu /home/ y cuanto pesa /etc
+du -h /home
+du -h /etc
+
+- Se requiere guardar un archivo dentro de la configuración de la memoria del computador dentro
+de un archivo llamado memoria.txt
+cat free -h >>memoria.txt
+cat /proc/cpuinfo >>memoria.txt
+
+-Se requiere guardar toda la configuración de la versión del kernel en un archivo llamado kernel.txt
+uname -a >> kernel.txt
+
+- Como matamos un proceso del computador
+kill -9 ID
+
+- Que hace el respectivo comando $cat toto > toto2
+
+Agrega en la ultima linea del archivo toto2 el contenido del archivo toto
+
+- Como puedo visualizar las particiones del disco duro
+df -h
+
+
+ls -al /home/jf/ > toto.txt echo "Toto" > /etc/miarchivodeconfiguración
+
+separar con ; la instruccion
+
+ls -al /home/jf/ > toto.txt echo; "Toto" > /etc/miarchivodeconfig$
+
+- Cree una carpeta con tu nombre
+ mkdir julio
+
+- Dentro de la carpeta, creamos tres archivos de nombre c1 c2 c3
+cd /julio/touch c1 c2 c3
+- Guardamos en el c1 su nombre completo
+nano c1 escribimos el nombre y gurdamos ctrl o
+
+- Guardamos en el c2 la cédula
+nano c2 escribimos la cedula y gurdamos
+
+- Guardamos el c3 el correo electrónico
+nano c3 escribimos el correo y guardamos
+
+- Describa a continuación la función de los siguientes directorios
+/bin   se  guardan los archivos binarios y ejecutables para el sistema operativo
+/home/ Se guarda los archivos de los usuarios los documentos
+/media  Se usa para montar las particiones temporales eje: pen drive, unidades de disco virtual
+/var   se usa para guardar los archivos variables del sistema operativo
+/     Se usa para guardar los archivos raiz del sistema operativo la base del sistema.
+/sbin se guardan los archivos ejecutables y librerias del sistema operativo y las aplicaciones.
+/boot  Se usa para guardar los archivos de arranque del sistema el grub
