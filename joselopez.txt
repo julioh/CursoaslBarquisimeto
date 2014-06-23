@@ -1,0 +1,68 @@
+Jose Antonio Lopez Rojas
+
+Practica
+
+- Que permisologia tiene los siguientes archivos
+rwxrwx---   770
+---------   000
+rw-rw----   660
+r-xr-xr-x   555
+---rw-r-x   065
+--x--x--x   111
+
+
+- Ejecuten la búsqueda con grep buscando cunaguaro y guarde la salida en un archivo llamado
+firefox.txt
+ps -aux |grep cunaguaro>>firefox.txt 
+
+-Cuanto pesa tu /home/ y cuanto pesa /etc
+df /home           y       df /etc
+
+- Se requiere guardar un archivo dentro de la configuración de la memoria del computador dentro
+de un archivo llamado memoria.txt
+cat acopiar.txt>/memoria.txt 
+
+-Se requiere guardar toda la configuración de la versión del kernel en un archivo llamado kernel.txt
+uname -a >kernel.txt
+
+- Como matamos un proceso del computador
+kill XXXX  donde xxxx es el ID del proceso
+
+- Que hace el respectivo comando $cat toto > toto2
+copia el contenido del archivo toto en toto2 
+
+- Como puedo visualizar las particiones del disco duro
+fdisk -l
+
+- Cree una carpeta con tu nombre
+mkdir JoseLopez
+
+- Dentro de la carpeta, creamos tres archivos de nombre c1 c2 c3
+cd JoseLopez
+touch c1
+touch c2
+touch c3
+
+- Guardamos en el c1 su nombre completo
+nano c1
+JoseAntonioLopezRojas
+ctrl o
+
+- Guardamos en el c2 la cédula
+nano c2
+V-12.436.937.
+ctrl o
+
+- Guardamos en c3 el correo electrónico
+nano c3
+conquistadorcomputable@gmail.com
+ctrl o
+
+- Describa a continuación la función de los siguientes directorios
+/bin   = archivos ejecutables
+/home/ = archivos del usuario
+/media = dispositivos montables
+/var   = archivos de temporales
+/      = raiz, archivos de sistema
+/sbin  = demonios o ejecutables
+/boot  = grub, gestor de arranque

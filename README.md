@@ -43,4 +43,10 @@ Julio Matheus juliomatheus@gmail.com
 Javier Parra javierparra76@yahoo.com
 
 >>>>>>> 22f8615d98bc7bc99a9f8abc14b25aecd6392fa6
+<<<<<<< HEAD
 >>>>>>> 0d58c15693984288b5851d74f40e52639d111922
+=======
+
+Fernando Barbara V-12.435.485 fernandojafer@gmail.com
+
+>>>>>>> 3a0576edb5efcf07e5b3f4cd8cc08988314a57a6
