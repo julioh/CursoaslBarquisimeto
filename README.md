@@ -39,5 +39,3 @@ Javier Parra javierparra76@yahoo.com
 
 Fernando Barbara V-12.435.485 fernandojafer@gmail.com
 
-Jackson Hernandez jhernandez@fundacite-lara.gob.ve
-
