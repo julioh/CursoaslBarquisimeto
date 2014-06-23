@@ -1,0 +1,52 @@
+Practica
+
+- Que permisologia tiene los siguientes archivos
+rwxrwx--- 770 
+--------- 000
+rw-rw---- 660
+r-xr-xr-x 555
+---rw-r-x 065
+--x--x--x 111
+
+
+- Ejecuten la búsqueda con grep buscando cunaguaro y guarde la salida en un archivo llamado
+firefox.txt
+ps aux | grep cunaguaro > firefox.txt
+
+-Cuanto pesa tu /home/ y cuanto pesa /etc
+df /home/ du /etc
+
+- Se requiere guardar un archivo dentro de la configuración de la memoria del computador dentro
+de un archivo llamado memoria.txt
+cat /proc/meminfo >memoria.txt
+
+-Se requiere guardar toda la configuración de la versión del kernel en un archivo llamado kernel.txt
+uname -a >kernel.txt
+
+- Como matamos un proceso del computador
+kill -9 pid
+- Que hace el respectivo comando $cat toto > toto2
+sustituye todo el texto de toto en toto2
+- Como puedo visualizar las particiones del disco duro
+fdisk -l
+ls -al /home/jf/ > toto.txt echo "Toto" > /etc/miarchivodeconfiguración
+ls -al /home/jf/ > toto.txt && echo "Toto" > /etc/miarchivodeconfiguración
+
+- Cree una carpeta con tu nombre 
+	mkdir joseC
+- Dentro de la carpeta, creamos tres archivos de nombre c1 c2 c3 
+	touch c1 c2 c3 
+- Guardamos en el c1 su nombre completo
+	echo "José Cadenas" >> c1
+- Guardamos en el c2 la cédula
+	echo 6816938 >> c2
+- Guardamos el c3 el correo electrónico
+	echo jdcadenas@gmail.com >> c3
+- Describa a continuación la función de los siguientes directorios
+/bin    directorio todos los comandos para todos los usuarios y/o archivos binarios de ejecución
+/home/	directorio de todos los usuarios del sistema
+/media  directorio inicialmente vacio para realizar montajes de dispositivos
+/var    directorio de varios (correos, apache)
+/	directorio principal del sistema root
+/sbin   directorio de comandos y archivos binarios del root
+/boot directorio de configuraci{on de arranque
