@@ -1,0 +1,52 @@
+  PID TTY          TIME CMD
+ 3301 pts/1    00:00:00 su
+ 3307 pts/1    00:00:00 bash
+ 3397 pts/1    00:00:00 ps
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root      2404  0.6  0.9  20280 10188 tty8     Ss+  15:05   0:14 /usr/bin/Xorg :0 -br -verbose -novtswitch -auth /var/run/gdm3/auth-for-Debian-gdm-yvNsot/database -nolisten tcp vt8
+root      2478  0.0  0.0   3704   824 tty1     Ss+  15:05   0:00 /sbin/getty 38400 tty1
+root      2479  0.0  0.0   3704   820 tty2     Ss+  15:05   0:00 /sbin/getty 38400 tty2
+root      2480  0.0  0.0   3704   828 tty3     Ss+  15:05   0:00 /sbin/getty 38400 tty3
+root      2481  0.0  0.0   3704   820 tty4     Ss+  15:05   0:00 /sbin/getty 38400 tty4
+root      2482  0.0  0.0   3704   820 tty5     Ss+  15:05   0:00 /sbin/getty 38400 tty5
+root      2483  0.0  0.0   3704   820 tty6     Ss+  15:05   0:00 /sbin/getty 38400 tty6
+soporte   3257  0.0  0.2   5656  2788 pts/0    Ss   15:07   0:00 bash
+root      3265  0.0  0.1   4208  1284 pts/0    S    15:07   0:00 su
+root      3267  0.0  0.3   5956  3128 pts/0    S    15:07   0:00 bash
+soporte   3294  0.0  0.2   5656  2792 pts/1    Ss   15:08   0:00 bash
+root      3301  0.0  0.1   4208  1284 pts/1    S    15:08   0:00 su
+root      3307  0.0  0.2   5796  3040 pts/1    S    15:09   0:00 bash
+root      3376  0.0  0.1   4256  1764 pts/0    S+   15:12   0:00 nano wilman_briceño.txt
+root      3685  0.0  0.1   4268  1104 pts/1    R+   15:43   0:00 ps -aut
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root      2404  0.6  0.9  20280 10188 tty8     Ss+  15:05   0:14 /usr/bin/Xorg :0 -br -verbose -novtswitch -auth /var/run/gdm3/auth-for-Debian-gdm-yvNsot/database -nolisten tcp vt8
+root      2478  0.0  0.0   3704   824 tty1     Ss+  15:05   0:00 /sbin/getty 38400 tty1
+root      2479  0.0  0.0   3704   820 tty2     Ss+  15:05   0:00 /sbin/getty 38400 tty2
+root      2480  0.0  0.0   3704   828 tty3     Ss+  15:05   0:00 /sbin/getty 38400 tty3
+root      2481  0.0  0.0   3704   820 tty4     Ss+  15:05   0:00 /sbin/getty 38400 tty4
+root      2482  0.0  0.0   3704   820 tty5     Ss+  15:05   0:00 /sbin/getty 38400 tty5
+root      2483  0.0  0.0   3704   820 tty6     Ss+  15:05   0:00 /sbin/getty 38400 tty6
+soporte   3257  0.0  0.2   5656  2788 pts/0    Ss   15:07   0:00 bash
+root      3265  0.0  0.1   4208  1284 pts/0    S    15:07   0:00 su
+root      3267  0.0  0.3   5956  3128 pts/0    S    15:07   0:00 bash
+soporte   3294  0.0  0.2   5656  2792 pts/1    Ss   15:08   0:00 bash
+root      3301  0.0  0.1   4208  1284 pts/1    S    15:08   0:00 su
+root      3307  0.0  0.2   5796  3040 pts/1    S    15:09   0:00 bash
+root      3376  0.0  0.1   4256  1764 pts/0    S+   15:12   0:00 nano wilman_briceño.txt
+root      3686  0.0  0.1   4268  1108 pts/1    R+   15:43   0:00 ps -aut
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root      2404  0.6  0.9  20280 10188 tty8     Ss+  15:05   0:14 /usr/bin/Xorg :0 -br -verbose -novtswitch -auth /var/run/gdm3/auth-for-Debian-gdm-yvNsot/database -nolisten tcp vt8
+root      2478  0.0  0.0   3704   824 tty1     Ss+  15:05   0:00 /sbin/getty 38400 tty1
+root      2479  0.0  0.0   3704   820 tty2     Ss+  15:05   0:00 /sbin/getty 38400 tty2
+root      2480  0.0  0.0   3704   828 tty3     Ss+  15:05   0:00 /sbin/getty 38400 tty3
+root      2481  0.0  0.0   3704   820 tty4     Ss+  15:05   0:00 /sbin/getty 38400 tty4
+root      2482  0.0  0.0   3704   820 tty5     Ss+  15:05   0:00 /sbin/getty 38400 tty5
+root      2483  0.0  0.0   3704   820 tty6     Ss+  15:05   0:00 /sbin/getty 38400 tty6
+soporte   3257  0.0  0.2   5656  2788 pts/0    Ss   15:07   0:00 bash
+root      3265  0.0  0.1   4208  1284 pts/0    S    15:07   0:00 su
+root      3267  0.0  0.3   5956  3128 pts/0    S    15:07   0:00 bash
+soporte   3294  0.0  0.2   5656  2792 pts/1    Ss   15:08   0:00 bash
+root      3301  0.0  0.1   4208  1284 pts/1    S    15:08   0:00 su
+root      3307  0.0  0.2   5796  3040 pts/1    S    15:09   0:00 bash
+root      3376  0.0  0.1   4256  1764 pts/0    S+   15:12   0:00 nano wilman_briceño.txt
+root      3687  0.0  0.1   4268  1108 pts/1    R+   15:43   0:00 ps -aut
