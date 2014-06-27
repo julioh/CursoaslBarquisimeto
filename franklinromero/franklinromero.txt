@@ -1,0 +1,128 @@
+Actividad. Curso de Adminsitracion en Linux
+
+
+      - Entrar como root, ejecutar history -c
+
+      - Crear un proyecto en github llamado actividadcursoasl
+
+*1- Generar el Readme de una vez
+*2- Agregarme al proyecto mi correo es juliochg@gmail.com
+
+    Crear un archivo Examen-(Número de la Cédula de Identidad) con los siguientes datos:
+      -Nombre Completo
+      -Cédula de Indentidad
+      -Dirección de correo electrónico
+      -Institución a la que pertenece
+
+3- agregar este .txt que ha sido modificado con tu nombre y apellido.
+
+*4- hacer un commit
+
+5- Crear 5 archivos llamados y cambiar permisologia
+     -curso1.txt   ---RW-R-X  065
+     -curso2.txt   RWX-W-RW-  726
+     -curso3.txt   --X--X--X  111
+     -curso4.txt   -W--W-RWX  227
+     -curso5.txt   ---RW-R--  064
+   Se utiliza el comando chmod por ej. #chmod 111 curso3.txt
+
+6-Como puedo visualizar las particiones del disco duro
+
+    #dh -sh 
+
+7-Como matamos un proceso del computador
+
+    #kill -9 (Nro de Proceso)
+
+8-Crear un carpeta llamada openoffice-writer.
+  -abrir writer
+  -guardar la busqueda en archivo llamado writer.txt
+
+   # ps -aux | grep libreoffice > writer.txt
+
+ 
+*9-Crear un carpeta llamada procesaro.
+  -guardar la busqueda en archivo llamado procesador.txt
+
+
+10-Como configuras una interfaz de red con dhcp
+
+   Utilizamos el ifconfig
+   #ifconfig
+
+11-Que sucede cuando ejecutas el comando: touch registros
+                 -Copia el archivo registros al directorio actual.
+      -Crea un archivo vacío llamado registros.
+                 -Borra el archivo registros.
+                 -Mueve el archivo registros al directorio actual
+
+12-El comando: more examen
+      - Despliega el contenido del archivo examen, una pantalla a la vez.
+                 - Nos cambia al directorio examen.
+                 - Crea el archivo examen el directorio actual.
+                 - Muestra las primeras líneas del archivo examen
+
+*13- Crear un carpeta sl descargar el paquete fuente de sl, modificar el tren 
+     con su nombre generar un nuevo paquete, e instalarlo
+      subir dichos paquetes al servidor de github
+
+14- comando para listar redes inalambricas.
+
+     #iwlist scan
+     #iwconfig
+
+*15- como funcionan x11vnc, pasos del cliente y servidor
+
+
+
+16- Como agregamos el usuario y gestionamos el cambio de contraseña
+   
+    #adduser romcat
+   
+
+*17-crear un carpeta canaima-semilla, copiar un sabor desde primera-base
+  llamarlo con el nombre de ustedes, editarlo todos los perfil personalizado.
+   subir dicha carpeta a github.
+   - agregar un txt, con los pasos para ejecutar la creacion de la .iso
+
+
+18-Donde se modifican los repositorios en debian, 
+
+       #nano /etc/apt/source.list
+
+   - cuales son los pasos para ejecutar un repositorio nuevo.
+
+       a- Modificar el source.list
+       b- Actualizar con aptitude update
+
+
+*19- Las particiones de un disco fisico se nombran mediante el nombre de dispositivo y el
+número de partición:
+
+
+
+*20- Como hago un repositorio con debmirror, comando.
+
+
+*21- Guardar el history en .txt para verificar todo lo anterior fue realizado por ti.
+
+ 
+
+*22- como listo las redes inalambricas.
+
+     #iwconfig
+
+23- pasos para compilar el kernel
+    a- Entramos en la carpeta /usr/var/
+    b- Ubicamos la carpeta del Kernel y entramos en ella
+    c- Ejecutamos el comando menuconf y hacemos los arreglos deseados
+    d- Ejecutamos el comando 
+
+24- crear un archivo permiso.txt y que los dueños sean root y soporte., ejecutar cat.
+    #nano permiso.txt
+    #chmod 770 permiso.txt
+
+*25- Como matar un procesos usando top.
+
+
+
