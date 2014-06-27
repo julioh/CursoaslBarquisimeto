@@ -1,0 +1,139 @@
+Actividad. Curso de Adminsitracion en Linux
+
+
+- Entrar como root, ejecutar
+
+history -c
+
+
+
+ Crear un archivo Examen-(Número de la Cédula de Identidad) con los siguientes datos:
+-Nombre Completo
+-Cédula de Indentidad
+-Dirección de correo electrónico
+-Institución a la que pertenece
+3- agregar este .txt que ha sido modificado con tu nombre y apellido.
+4-hacer un commit
+
+5- Crear 5 archivos llamados y cambiar permisologia
+ -curso1.txt   ---RW-R-X
+ -curso2.txt   RWX-W-RW-
+ -curso3.txt   --X--X--X
+ -curso4.txt   -W--W-RWX
+ -curso5.txt   ---RW-R--
+
+6-Como puedo visualizar las particiones del disco duro
+fdisk -l //////// y tambien fdisk -l |grep dev
+
+7-Como matamos un proceso del computador
+kill -9 id_proceso
+
+8-Crear un carpeta llamada openoffice-writer.
+mkdir openoffice-writer
+  -abrir writer
+  -guardar la busqueda en archivo llamado writer.txt
+ps -aux |grep libreoffice >> writer.txt
+ 
+9-Crear un carpeta llamada procesaro.
+mkdir procesador
+  -guardar la busqueda en archivo llamado procesador.txt
+cat /proc/cpuinfo >> procesador/procesador.txt
+
+10-Como configuras una interfaz de red con dhcp
+se edita el archivo interfaces:
+nano /etc/network/interfaces
+
+11-Que sucede cuando ejecutas el
+comando: touch registros
+-Copia el archivo registros al directorio actual.
+***-Crea un archivo vacío llamado registros. ************************************Esta!!!
+-Borra el archivo registros.
+-Mueve el archivo registros al directorio actual
+
+12-El comando: more examen
+- Despliega el contenido del archivo examen, una pantalla a la vez. ***********************ESTA!!!
+- Nos cambia al directorio examen.
+- Crea el archivo examen el directorio actual.
+- Muestra las primeras líneas del archivo examen
+
+13-crear un carpeta sl
+descargar el paquete fuente de sl, 
+--------- apt-get source sl
+modificar el tren con su nombre generar un nuevo paquete, e instalarlo
+cd sl-3.03/
+nano sl.h
+dpkg-source --commit
+dpkg-buildpackage -us -uc
+dpkg -i sl_3.03-17_i386.deb
+
+  subir dichos paquetes al servidor de github
+
+14-comando para listar redes inalambricas.
+iwlist scan
+
+15-como funcionan x11vnc, pasos del cliente y servidor
+el x11vnc levanta el entorno grafico de un computador por acceso remoto, el cliente debe tener instalado xtightvncviewer
+y el servidor debe tener instalado x11vnc.
+para usarlo el servidor debe inicializar el servicio con x11vnc, luego precionar alt + F2, 
+escribir el comando xtightvncviewer, y a continuación escribir la ip del cliente.
+
+
+16- Como agregamos el usuario y gestionamos el cambio de contraseña
+adduser nombre_usuario
+- cuando se crea el usuario pide la contraseña que se le va a asignar, si se le quiere cambiar
+la clave mas adelante puede usar el comando passwd y el nombre de usuario, ej. #passwd usuario
+
+17-crear un carpeta canaima-semilla, 
+	mkdir canaima-semilla
+copiar un sabor desde primera-base
+	cp -r /usr/share/canaima-semilla/profiles/primera-base/ .
+  llamarlo con el nombre de ustedes, 
+	mv primera-base/ jackson/
+editarlo todos los perfil personalizado.
+	cd jackson/
+	nano profile.conf
+   subir dicha carpeta a github.
+   - agregar un txt, con los pasos para ejecutar la creacion de la .iso
+	nano creacioniso.txt
+
+18- donde se modifican los repositorios en debian, 
+	/etc/apt/sources.list
+   - cuales son los pasos para ejecutar un repositorio nuevo.
+* Lo primero es editar el archivo sources.list
+	nano /etc/apt/sources.list
+* Luego se escribe la direccion del repositorio que se desea agregar
+	deb http://192.168.10.77/debian stable main contrib non-free
+* Por ultimo se hace un apt-get update
+
+19- Las particiones de un disco fisico se nombran mediante el nombre de dispositivo y el
+número de partición:
+	/dev/sda2/
+
+20- Como hago un repositorio con debmirror, comando.
+	debmirror --host=http.us.debian.org --root=debian --cleanup --nosource --progress --ignore-release-gpg --arch=i386
+	--dist=stable --method=http --section=main, contrib, non-free /(directorio)
+
+21- Guardar el history en .txt para verificar todo lo anterior fue realizado por ti.
+history >> mi-history.txt
+ 
+22- como listo las redes inalambricas.
+	iwlist scan
+
+23- pasos para compilar el kernel
+	* Descargar Kernel www.kernel.org
+	* Instalar Librerias necesarias:
+		-libncursesw5
+                -libncursesw5-dev
+                -libncursesw5-dbg
+                -libncurses5
+                -libncurses5-dev
+                -libncurses5-dbg
+
+24- crear un archivo permiso.txt y que los dueños sean root y soporte., ejecutar cat.
+	touch permiso.txt
+	chgrp soporte permiso.txt
+
+25- Como matar un procesos usando top.
+el comando top muestra todos los procesos
+Con la letra K permite matar un proceso por su PID
+

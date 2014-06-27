@@ -1,0 +1,8 @@
+* Se cambia al directorio canaima-semilla/profiles
+* Se copia uno de los perfiles, con el nombre que se desea.
+* Entar a la carpeta copiada del perfil y editar el archivo profile.conf
+* Luego ejecutar los siguientes comandos en ese orden:
+	#lb configure
+	#lb build
+	#lb binary
+* Posterior a eso se puede provar la iso con un emulador como qemu

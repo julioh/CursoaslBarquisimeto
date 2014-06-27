@@ -1,0 +1,6 @@
+ps -aux | grep writer
+warning: bad ps syntax, perhaps a bogus '-'?
+See http://gitorious.org/procps/procps/blobs/master/Documentation/FAQ
+soporte  11283  0.0  0.2  24044  2780 ?        Sl   10:09   0:00 /usr/lib/libreoffice/program/oosplash --writer file:///home/soporte/Escritorio/COMANDOS.odt
+soporte  11307  1.3  7.3 217596 75700 ?        Sl   10:09   0:03 /usr/lib/libreoffice/program/soffice.bin --writer file:///home/soporte/Escritorio/COMANDOS.odt --splash-pipe=5
+root     11359  0.0  0.0   3492   732 pts/3    S+   10:13   0:00 grep --color=auto writer

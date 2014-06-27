@@ -1,0 +1,9 @@
+soporte  21317  0.1  0.2  24044  2784 ?        Sl   14:47   0:00 /usr/lib/libreoffice/program/oosplash --writer
+soporte  21338  1.9  6.1 200624 63264 ?        Sl   14:47   0:01 /usr/lib/libreoffice/program/soffice.bin --writer --splash-pipe=5
+root     21358  0.0  0.0   3488   732 pts/0    S+   14:48   0:00 grep --color=auto libreoffice
+soporte  21317  0.1  0.2  24044  2784 ?        Sl   14:47   0:00 /usr/lib/libreoffice/program/oosplash --writer
+soporte  21338  1.5  6.1 200624 63264 ?        Sl   14:47   0:01 /usr/lib/libreoffice/program/soffice.bin --writer --splash-pipe=5
+root     21361  0.0  0.0   3488   728 pts/0    S+   14:48   0:00 grep --color=auto libreoffice
+soporte  21317  0.0  0.2  24044  2784 ?        Sl   14:47   0:00 /usr/lib/libreoffice/program/oosplash --writer
+soporte  21338  0.9  6.1 200624 63264 ?        Sl   14:47   0:01 /usr/lib/libreoffice/program/soffice.bin --writer --splash-pipe=5
+root     21366  0.0  0.0   3488   728 pts/0    S+   14:49   0:00 grep --color=auto libreoffice

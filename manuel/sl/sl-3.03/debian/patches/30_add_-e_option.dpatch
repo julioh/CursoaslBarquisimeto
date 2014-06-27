@@ -1,0 +1,36 @@
+#! /bin/sh /usr/share/dpatch/dpatch-run
+## 30_add_-e_option.dpatch by Hiroyuki Yamamoto <yama1066@gmail.com>
+##
+## All lines beginning with `## DP:' are a description of the patch.
+## DP: add -e option
+
+@DPATCH@
+diff -urNad sl-3.03~/sl.c sl-3.03/sl.c
+--- sl-3.03~/sl.c	2008-12-27 20:04:16.000000000 +0900
++++ sl-3.03/sl.c	2008-12-27 20:04:16.000000000 +0900
+@@ -35,6 +35,7 @@
+ int ACCIDENT  = 0;
+ int LOGO      = 0;
+ int FLY       = 0;
++int INTR      = 0;
+ 
+ int my_mvaddstr(int y, int x, char *str)
+ {
+@@ -54,6 +55,7 @@
+ 	    case 'a': ACCIDENT = 1; break;
+ 	    case 'F': FLY      = 1; break;
+ 	    case 'l': LOGO     = 1; break;
++	    case 'e': INTR     = 1; break;
+ 	    default:                break;
+ 	}
+     }
+@@ -69,6 +71,9 @@
+ 	}
+     }
+     initscr();
++    if (INTR == 0) {
++	signal(SIGINT, SIG_IGN);
++    }
+     noecho();
+     leaveok(stdscr, TRUE);
+     scrollok(stdscr, FALSE);
