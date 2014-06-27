@@ -1,0 +1,11 @@
+chroot chroot/
+nano /etc/apt/sources.list
+adduser gilberto
+aptitude install gnome-core
+aptitude install gnome
+lb build
+lb bootstrap
+lb chroot
+aptitude install perl locales
+aptitude install debian-installer
+lb binary
