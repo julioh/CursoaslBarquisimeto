@@ -9,11 +9,6 @@ history -c
 -Crear un proyecto en github llamado actividadcursoasl
 1- Generar el Readme de una vez
 2- Agregarme al proyecto mi correo es juliochg@gmail.com
- Crear un archivo Examen-(Número de la Cédula de Identidad) con los siguientes datos:
--Nombre Completo
--Cédula de Indentidad
--Dirección de correo electrónico
--Institución a la que pertenece
 3- agregar este .txt que ha sido modificado con tu nombre y apellido.
 4-hacer un commit
 
@@ -28,16 +23,15 @@ history -c
 
 7-Como matamos un proceso del computador
 
-8-Crear un carpeta llamada openoffice-writer.
-  -abrir writer
-  -guardar la busqueda en archivo llamado writer.txt
+8-Crear un carpeta llamada cunaguaro.
+  -abrir cunaguaro
+  -guardar la busqueda en archivo llamado cunaguaro.txt
  
-9-Crear un carpeta llamada procesaro.
-  -guardar la busqueda en archivo llamado procesador.txt
-  -mover la carpeta kernel por proce1.0
+9-Crear un carpeta llamada kernel.
+  -guardar la busqueda en archivo llamado kernel.txt
+  -mover la carpeta kernel por kernel1.0
 
 10-Como configuras una interfaz de red con dhcp
-
 
 11-Que sucede cuando ejecutas el
 comando: touch registros
@@ -80,7 +74,5 @@ número de partición:
 21- Guardar el history en .txt para verificar todo lo anterior fue realizado por ti.
 
  
-
-22- como listo las redes inalambricas.
 
 
