@@ -1,0 +1,500 @@
+   74  /home/soporte/control/respaldo.sh
+   75  ls
+   76  vim.tiny /etc/crontab 
+   77  service cron restart
+   78  ls -la
+   79  ls -la
+   80  ls -la
+   81  ls -la
+   82  ls -la
+   83  ls -la
+   84  vim.tiny /etc/crontab 
+   85  ls -la
+   86  ls -la
+   87  crontrab -e
+   88  crontab -e
+   89  ls
+   90  ls
+   91  ls
+   92  ls
+   93  ls
+   94  ls
+   95  ls
+   96  ls -la
+   97  ls -la
+   98  man date
+   99  man date
+  100  ls -la
+  101  ls -la
+  102  ls -l
+  103  ls -s
+  104  ls
+  105  ls -la
+  106  ls -la
+  107  ls -la
+  108  ls -la
+  109  watch ls
+  110  watch ls
+  111  ls -la
+  112  ls -la
+  113  watch ls
+  114  watch ls -la
+  115  watch ls -la
+  116  watch ls -la
+  117  ls -la
+  118  watch ls -la
+  119  ls -la
+  120  watch ls -lt
+  121  ls -lt
+  122  watch ls -lt 
+  123  aptitude install imagemagick
+  124  c-s-gui
+  125  c-s-gui
+  126  c-s-gui
+  127  c-s construir --medio="iso" --arquitectura="i386" --sabor="cursoasl"
+  128  cat /usr/share/canaima-semilla/isos/build.201406251524.log 
+  129  c-s construir --medio="iso" --arquitectura="i386" --sabor="popular"
+  130  cat /usr/share/canaima-semilla/isos/build.201406251524.log 
+  131  c-s construir --medio="iso" --arquitectura="i386" --sabor="cursoasl"
+  132  cat /usr/share/canaima-semilla/isos/build.201406251526.log 
+  133  vim.tiny /usr/share/canaima-semilla/isos/build.201406251526.log 
+  134  c-s construir --medio="iso" --arquitectura="i386" --sabor="cursoasl"
+  135  cd ..
+  136  c-s construir --medio="iso" --arquitectura="i386" --sabor="cursoasl2"
+  137  cp -r popular cursoasl
+  138  ls -la
+  139  ls
+  140  cd cursoasl/
+  141  ls
+  142  vim.tiny profile.conf 
+  143  vim.tiny profile.conf 
+  144  ls
+  145  cd IMG_INCLUDES/
+  146  ls
+  147  cd live/
+  148  ls
+  149  cd config-hooks/
+  150  ls
+  151  vim.tiny 1050-copy-autostart 
+  152  cd ..
+  153  ls
+  154  cd data/
+  155  ls
+  156  cd scripts/
+  157  ls
+  158  vim.tiny disabler.sh 
+  159  ls
+  160  cd ..
+  161  ls
+  162  cd autostart/
+  163  ls
+  164  vim.tiny disabler.desktop 
+  165  ls
+  166  ps -aux
+  167  ps -aux |grep c-s-gui
+  168  ps -aux |grep c-s-gui
+  169  kill -9 23056 
+  170  cd ..
+  171  cd ..
+  172  cd ..
+  173  sl
+  174  cd ..
+  175  ls
+  176  vim.tiny profile.conf 
+  177  vim.tiny profile.conf 
+  178  vim.tiny profile.conf 
+  179  cd ..
+  180  cp -r popular cursoasl2
+  181  cd cursoasl2/
+  182  ls
+  183  vim.tiny profile.conf 
+  184  cd ..
+  185  cd cursoasl
+  186  ls
+  187  vim.tiny profile.conf 
+  188  lspci |grep Wireless
+  189  lspci
+  190  lspci |grep Network
+  191  aptitude install firmware-realtek 
+  192  lspci |grep Network
+  193  ifconfig 
+  194  aptitude install firmware-realtek 
+  195  aptitude install wireless-tools 
+  196  iwconfig wlan0 
+  197  iwconfig wlan0 down
+  198  iwconfig
+  199  ifconfig wlan0 up
+  200  ifconfig wlan0 up
+  201  iwconfig wlan0
+  202  man iwconfig 
+  203  ls
+  204  ifconfig wlan0 up
+  205  ls
+  206  iwlist wlan0 
+  207  iwlist 
+  208  ls
+  209  cd ..
+  210  cd ..
+  211  ls
+  212  cd isos/
+  213  ls
+  214  cd ..
+  215  ls
+  216  cd isos/
+  217  ls
+  218  reboot
+  219  lspci 
+  220  aptitude install firmware-realtek 
+  221  exit
+  222  update-burg 
+  223  uname -a
+  224  aptitude purge firmware-realtek 
+  225  aptitude install firmware-realtek 
+  226  lspci 
+  227  ls
+  228  dpkg-reconfigure firmware-realtek 
+  229  uname -a
+  230  update-initramfs
+  231  update-initramfs -k all
+  232  update-initramfs -k all -u
+  233  reboot
+  234  ifconfig 
+  235  aptitude install xtightvncviewer 
+  236  ps -aux
+  237  aptitude install nmap
+  238  nmap -A -T4 localhost
+  239  ifconfig 
+  240  nmap -A -T4 192.168.10.98
+  241  ssh soporte@192.168.10.98
+  242  vim.tiny /etc/ssh/sshd_config 
+  243  service ssh restart
+  244  nmap -A -T4 localhost
+  245  vim.tiny /etc/ssh/sshd_config
+  246  service ssh restart
+  247  nmap -A -T4 localhost
+  248  vim.tiny config.sh
+  249  man lb
+  250  man lb
+  251  man live-build 
+  252  man live-build 
+  253  aptitude install live-manual-html 
+  254  vim.tiny config.sh
+  255  chmod +x config.sh 
+  256  ./config.sh 
+  257  vim.tiny config.sh
+  258  ./config.sh 
+  259  vim.tiny config.sh
+  260  ./config.sh 
+  261  lb build
+  262  vim.tiny config.sh
+  263  vim.tiny config.sh
+  264  ./config.sh 
+  265  vim.tiny config.sh
+  266  ./config.sh 
+  267  vim.tiny config.sh
+  268  ls
+  269  vim.tiny config.sh
+  270  ./config.sh 
+  271  ls
+  272  cd dist/
+  273  ls
+  274  cd config/
+  275  ls
+  276  vim.tiny bootstrap 
+  277  vim.tiny bootstrap 
+  278  cd ..
+  279  ls
+  280  lb build
+  281  cd ..
+  282  ls
+  283  vim.tiny config.sh 
+  284  mkdir distro
+  285  cd dist
+  286  cd ..
+  287  cd disto
+  288  cd distro/
+  289  wget http://192.168.10.91/imagen.tar
+  290  ls
+  291  tar -xvf imagen.tar 
+  292  ls
+  293  ls chroot/
+  294  chroot chroot/
+  295  chroot chroot/
+  296  ls
+  297  lb binary
+  298  ls
+  299  ls -la
+  300  wget http://192.168.10.91/control.tar
+  301  tar -xvf control.tar 
+  302  ls
+  303  ls
+  304  lb binary
+  305  ls
+  306  cd .build/
+  307  ls
+  308  vim.tiny bootstrap
+  309  ls
+  310  vim.tiny chroot_archives 
+  311  ls -la
+  312  mount
+  313  cd ..
+  314  rm -r *
+  315  ls
+  316  ls -la 
+  317  rm -r .*
+  318  rm -r .build
+  319  ls -la
+  320  ls -la
+  321  wget http://192.168.10.96/carpeta.tar
+  322  wget http://192.168.10.96/carpeta.tar
+  323  tar -xvf carpeta.tar 
+  324  lb binary
+  325  ls -la
+  326  cd carpeta/
+  327  ls
+  328  lb binary
+  329  ls
+  330  cd config/
+  331  ls
+  332  vim.tiny bootstrap 
+  333  ls
+  334  cat *
+  335  ls
+  336  cd package
+  337  ls -la
+  338  cd packages.chroot/
+  339  ls
+  340  cd ..
+  341  du
+  342  du -s
+  343  du -l
+  344  du -l3
+  345  cd includes.debian-installer/
+  346  ls
+  347  cd ..
+  348  ls -la
+  349  cat *
+  350  grep -ri ".77" *
+  351  cd ..
+  352  ls
+  353  grep -ri ".77" *
+  354  grep -ri "192.168.10.77" *
+  355  cd chroot/
+  356  ls
+  357  cd etc/apt/
+  358  vim.tiny sources.list
+  359  cd ..
+  360  cd ..
+  361  cd ..
+  362  ls
+  363  lb binary
+  364  chroot chroot/
+  365  lb binary
+  366  ls
+  367  lb binary_iso
+  368  ls chroot/boot/
+  369  ls
+  370  cd chroot/boot/
+  371  ls
+  372  cd ..
+  373  ls
+  374  cd selinux/
+  375  ls
+  376  cd ..
+  377  ls
+  378  cp -r /home/soporte/isolinux .
+  379  ls
+  380  cd ..
+  381  lb binary_iso
+  382  lb binary
+  383  lb binary_iso
+  384  exit
+  385  aptitude install x11vnc
+  386  x11vnc 
+  387  x11vnc 
+  388  x11vnc -bg -gui
+  389  man sshd_config 
+  390  man sshd_config 
+  391  ssh -p1032 soporte@192.168.10.99
+  392  ssh -p1032 soporte@192.168.10.96
+  393  ssh -p1032 soporte@192.168.10.96
+  394  vim.tiny /etc/apt/sources.list
+  395  cd /usr/share/canaima-semilla/
+  396  ls
+  397  cd profiles/
+  398  ls
+  399  cd cursoasl2
+  400  ls
+  401  vim.tiny profile.conf 
+  402  c-s construir --medio="iso" --arquitectura="i386" --sabor="cursoasl2"
+  403  vim.tiny profile.conf 
+  404  c-s construir --medio="iso" --arquitectura="i386" --sabor="cursoasl2"
+  405  c-s construir --medio="iso" --arquitectura="i386" --sabor="cursoasl2"
+  406  cd ..
+  407  ls
+  408  cd ..
+  409  ls
+  410  cd isos/
+  411  ls
+  412  ls
+  413  cd chroot/
+  414  ls
+  415  c-s construir --medio="iso" --arquitectura="i386" --sabor="cursoasl2"
+  416  ls
+  417  ls
+  418  cd distro/carpeta/
+  419  ls
+  420  lb binary
+  421  lb binary_iso
+  422  cd chroot/
+  423  ls
+  424  mv -r isolinux /home/soporte/
+  425  mv  isolinux /home/soporte/
+  426  rm -r isolinux
+  427  cd ..
+  428  lb binary
+  429  lb binary_iso
+  430  ls
+  431  cd binary/
+  432  ls
+  433  cd live/
+  434  ls
+  435  cd ..
+  436  cd ..
+  437  cd binary/
+  438  ls -la
+  439  rm -r live
+  440  cd ..
+  441  lb binary
+  442  cd chroot/
+  443  cp -r /home/soporte/isolinux .
+  444  cd ..
+  445  lb binary_iso
+  446  ls
+  447  cd binary
+  448  rm -r live
+  449  cd ..
+  450  lb binary
+  451  lb binary_iso
+  452  cd chroot/
+  453  ls
+  454  cd binary/
+  455  ls
+  456  cd live/
+  457  ls
+  458  cd ..
+  459  cd ..
+  460  rm -r binary
+  461  cd ..
+  462  ls
+  463  cd binary/
+  464  rm -r live
+  465  cd ..
+  466  lb binary
+  467  lb binary_iso
+  468  cd chroot/
+  469  ls
+  470  cd isolinux/
+  471  ls
+  472  halt
+  473  cd ..
+  474  cd ..
+  475  cd emulacion/
+  476  ls
+  477  qemu -hda ddebian.img 
+  478  qemu -hda ddebian.img -boot h
+  479  man qemu
+  480  qemu -hda ddebian.img -boot c
+  481  ps -aux
+  482  ps -aux | grep cp
+  483  ifconfig 
+  484  qemu -hda ddebian.img -cdrom binary.iso -boot d
+  485  exit
+  486  ls
+  487  pwd
+  488  cd /home/soporte/dist2/chroot/etc/
+  489  ls
+  490  cat shadow
+  491  cd ..
+  492  cd ,,
+  493  ls
+  494  cd ..
+  495  ls
+  496  lb binary
+  497  exit
+  498  exit
+  499  cd control/CursoaslBarquisimeto/fbolivar/
+  500  ls
+  501  cd sl
+  502  ls
+  503  apt-get source sl
+  504  ls
+  505  cd sl-3.03/
+  506  ls
+  507  ls
+  508  ls
+  509  cd debian/
+  510  ls
+  511  cd source/
+  512  ls
+  513  cd ..
+  514  cd ..
+  515  ls
+  516  cd ..
+  517  ls
+  518  cd sl-3.03/
+  519  ls
+  520  cd debian/source/
+  521  ls
+  522  ls
+  523  cd..
+  524  cd ..
+  525  cd ..
+  526  ls
+  527  vim.tiny sl.c
+  528  ls
+  529  vim.tiny sl-h.c
+  530  ls
+  531  vim.tiny sl.txt 
+  532  ls
+  533  vim.tiny sl.h 
+  534  cd..
+  535  cd ..
+  536  ls
+  537  vim.tiny sl-3.03/sl.h
+  538  cd sl-3.03/
+  539  ls
+  540  dpkg-source --commit
+  541  dpkg-buildpackage -us -uc
+  542  ls
+  543  cd ..
+  544  iwlist wlan0 
+  545  iwlist wlan0 scan
+  546  ls
+  547  ls -la
+  548  git add sl_3.03-17_i386.deb
+  549  git commint -a -m "El tren"
+  550  git commit  -a -m "El tren"
+  551  git push
+  552  adduser nuevo
+  553  passwd nuevo
+  554  useradd nuevousurio
+  555  useradd nuevousuario
+  556  mkdir canaima-semilla
+  557  cp /usr/share/canaima-semilla/profiles/primera-base/profile.conf canaima-semilla/
+  558  cp /usr/share/canaima-semilla/profiles/primera-base/profile.conf canaima-semilla/fbolivar.conf
+  559  ls
+  560  mv canaima-semilla ..
+  561  cd ..
+  562  ls
+  563  ls
+  564  canaima-semilla/
+  565  ls
+  566  cd canaima-semilla/
+  567  ls
+  568  rm profile.conf 
+  569  ls
+  570  vim.tiny fbolivar.conf 
+  571  cat /etc/apt/sources.list
+  572  fdisk -l
+  573  history > history.txt
