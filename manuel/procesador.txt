@@ -1,0 +1,2 @@
+model name	: Intel(R) Pentium(R) 4 CPU 3.00GHz
+model name	: Intel(R) Pentium(R) 4 CPU 3.00GHz

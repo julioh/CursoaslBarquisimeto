@@ -1,0 +1,10 @@
+Opcion A
+lb build
+
+
+Opcion B
+lb bootstrap
+lb chroot
+lb binary
+
+
