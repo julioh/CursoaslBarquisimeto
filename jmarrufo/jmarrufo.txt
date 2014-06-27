@@ -1,0 +1,122 @@
+Actividad. Curso de Adminsitracion en Linux
+
+
+- Entrar como root, ejecutar
+
+history -c
+
+
+-Crear un proyecto en github llamado actividadcursoasl
+1- Generar el Readme de una vez
+2- Agregarme al proyecto mi correo es juliochg@gmail.com
+ Crear un archivo Examen-(Número de la Cédula de Identidad) con los siguientes datos:
+-Nombre Completo
+-Cédula de Indentidad
+-Dirección de correo electrónico
+-Institución a la que pertenece
+3- agregar este .txt que ha sido modificado con tu nombre y apellido.
+4-hacer un commit
+
+5- Crear 5 archivos llamados y cambiar permisologia
+ -curso1.txt   ---RW-R-X
+ -curso2.txt   RWX-W-RW-
+ -curso3.txt   --X--X--X
+ -curso4.txt   -W--W-RWX
+ -curso5.txt   ---RW-R--
+
+6-Como puedo visualizar las particiones del disco duro
+
+7-Como matamos un proceso del computador
+Respuesta= Kill 9 + numero del proceso
+
+8-Crear un carpeta llamada openoffice-writer.
+  -abrir writer
+  -guardar la busqueda en archivo llamado writer.txt
+ 
+9-Crear un carpeta llamada procesaro.
+  -guardar la busqueda en archivo llamado procesador.txt
+  -mover la carpeta kernel por proce1.0
+
+10-Como configuras una interfaz de red con dhcp
+Respuesta= Primeramente observamos las interfaces en la terminal con
+           los coamndos iwconfig y iwlist. Posteriormente con el 
+           comando dhclient "interfaz()" configuramos dhcp 
+
+11-Que sucede cuando ejecutas el
+comando: touch registros
+
+Respuesta: --->-Crea un archivo vacío llamado registros.
+
+
+12-El comando: more examen
+
+Respuesta--> Muestra las primeras líneas del archivo examen
+
+13-crear un carpeta sl
+descargar el paquete fuente de sl, modificar el tren 
+con su nombre generar un nuevo paquete, e instalarlo
+  subir dichos paquetes al servidor de github
+
+14-comando para listar redes inalambricas.
+Respuesta= lspci | grep Wireless y con iwlist scan
+
+15-como funcionan x11vnc, pasos del cliente y servidor
+Respuesta:
+    1.- Descargar la aplicacion
+    2.- Instalar en el cliente y servidor
+    3.- Ejecutarmos con las teclas ALT+F2
+    4.- Introducimos el comando "xtightvncviewer"
+    5.- En la ventana de Server Dialog introducimos la Ip de la maquina servidor
+    6.- Si queremos utilizar la interfaz grafica utilizamos -vg -gui
+
+16- Como agregamos el usuario y gestionamos el cambio de contraseña
+Resp:   1.- Desde la interfaz grafica (x11vnc -vg -gui) vamos al menu a traves de "Clients"
+        2.- Posteriormente en la misma interfaz nos vamos a "Permissions"--->"passwords"   
+
+17-crear un carpeta canaima-semilla, copiar un sabor desde primera-base
+  llamarlo con el nombre de ustedes, editarlo todos los perfil personalizado.
+   subir dicha carpeta a github.
+   - agregar un txt, con los pasos para ejecutar la creacion de la .iso
+
+18- donde se modifican los repositorios en debian,
+        Respuesta= se modifican en : deb file/home/soporte/debian 
+   - cuales son los pasos para ejecutar un repositorio nuevo.
+        Respuesta =
+             1.-Entramos a /usr/share/canaima-semilla
+             2.- Hacemos un nano en profile.conf
+             3.- Modificamos:
+                 - PROFILE_NAME="Nombtre del nuevo perfil"    
+                 - META_REPO="IP del Mirror"
+                 - META_CODENAME= "estable"
+                 - META_REPOSECTIONS="Main contrib no free" 
+             4.- Correr canaima semilla con
+                 - c -s construir --medio="ISO" --arquitectura="i386" --sabor="nombre del nuevo sabor"
+             5.- Creamos un scrip con los valores de los parametros de inicio, posteriormente 
+                 lo modificamos con nuestros parametros.
+             6.- Copiamos el script y lo ejecutamos en consola terminal.
+             7.- 
+
+
+19- Las particiones de un disco fisico se nombran mediante el nombre de dispositivo y el
+número de partición:
+
+20- Como hago un repositorio con debmirror, comando.
+        Utilizamos el siguiente comando aptitude get install dbmirror 
+         --host=http.us.debian.org
+         --root=debian --cleanup
+         --nosource --progress --ignore-release-gpg --arch=1386 --dist=stable
+         -- method=http --section=main,contrib,non-free /home/soporte/debian
+
+21- Guardar el history en .txt para verificar todo lo anterior fue realizado por ti.
+
+
+
+23- pasos para compilar el kernel
+
+24- crear un archivo permiso.txt y que los dueños sean root y soporte., ejecutar cat.
+
+
+25- Como matar un procesos usando top.
+
+
+
