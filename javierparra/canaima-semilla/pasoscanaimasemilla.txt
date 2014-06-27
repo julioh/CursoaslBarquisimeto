@@ -1,0 +1,12 @@
+1. Entramos a #chroot chroot/
+2. Luego con el editor plano nano /etc/apt/sources.list
+3. Agregamos el usario en la jaula con su clave adduser
+4. aptitude install gnome-core
+5. aptitude install gnome
+6. lb build
+7. lb bootstrap
+8. lb chroot
+9. aptitude install perl locales
+10. aptitude install debian-installer
+11. lb binary
+

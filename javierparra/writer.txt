@@ -1,0 +1,10 @@
+root@canaima-popular:/home/soporte/control/CursoaslBarquisimeto/javierparra#  ps -aux | grep writer
+
+warning: bad ps syntax, perhaps a bogus '-'?
+
+See http://gitorious.org/procps/procps/blobs/master/Documentation/FAQ
+
+root     26882  0.0  0.0   3488   732 pts/0    S+   15:23   0:00 grep --color=auto writer
+
+root@canaima-popular:/home/soporte/control/CursoaslBarquisimeto/javierparra# 
+
