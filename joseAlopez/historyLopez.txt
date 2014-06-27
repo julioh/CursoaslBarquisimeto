@@ -1,0 +1,500 @@
+  160  nano script.sh 
+  161  cd ..
+  162  ls
+  163  cd ..
+  164  cd /var/www/
+  165  ls
+  166  cd..
+  167  cd ..
+  168  ls
+  169  cd /home/
+  170  cd soporte
+  171  nano script.sh 
+  172  cd /var/www/
+  173  ls
+  174  cd debian
+  175  ls
+  176  cd ..
+  177  cd /home/
+  178  ls
+  179  cd soporte
+  180  ls
+  181  nano script.sh 
+  182  ls
+  183  ls -lt /var/www/
+  184  sh script.hs
+  185  sh script.sh
+  186  ls -lt /var/www/
+  187  nano script.sh 
+  188  sh script.sh
+  189  ls -lt /var/www/
+  190  crontab -e
+  191  ls -lt /var/www/
+  192  ls
+  193  cp -R script.sh control/curso/
+  194  ls -lt control/curso/
+  195  ls -lt /var/www/
+  196  ls -lt /var/www/
+  197  ls -lt /var/www/
+  198  ls -lt /var/www/
+  199  ls -lt /var/www/
+  200  ls -lt /var/www/
+  201  ls -lt /var/www/
+  202  chmod +x script.sh 
+  203  crontab -e
+  204  ls -lt /var/www/
+  205  ls -lt /var/www/
+  206  crontab -e
+  207  chmod +x script.sh 
+  208  ls -lt /var/www/
+  209  ls
+  210  cd control
+  211  cd curso
+  212  git pull
+  213  ls
+  214  cd..
+  215  cd ..
+  216  ls
+  217  cd CursoaslBarquisimeto/
+  218  git pull
+  219  git pull
+  220  git pull
+  221  ls
+  222  nano actualizar.sh
+  223  cp -R actualizar.sh /home/soporte/control/curso/
+  224  cd ..
+  225  cd curso
+  226  git push
+  227  git add .
+  228  ls
+  229  git commit -a
+  230  git push
+  231  ls
+  232  cd control
+  233  apt-get sourse bmon
+  234  apt-get source bmon
+  235  ls
+  236  apt-get install bmon
+  237  ls
+  238  bmon
+  239  cd bmon-2.0.1
+  240  LS
+  241  ls
+  242  cd src
+  243  ls
+  244  nano out_ascii.c
+  245  cd ..
+  246  cd ..
+  247  aptitide remove --purge bmon
+  248  aptitude remove --purge bmon
+  249  dpkg-source --commit
+  250  ls
+  251  cd bmon-2.0.1/
+  252  dpkg-source --commit
+  253  ls
+  254  cd src
+  255  ls
+  256  nano out_curses.c
+  257  cd..
+  258  cd..
+  259  dpkg-source --commit
+  260  cd ..
+  261  dpkg-source --commit
+  262  dpkg-buildpackag -us -uc
+  263  dpkg-buildpackage -us -uc
+  264  ls
+  265  cd ..
+  266  ls
+  267  dpkg-buildpackage -us -uc
+  268  cd bmon-2.0.1/
+  269  ls
+  270  aptg-get -i bmon
+  271  cd ..
+  272  aptg-get -i bmon
+  273  ls
+  274  aptg-get -i bmon_2.0.1-3_i386.deb
+  275  aptk-get -i bmon_2.0.1-3_i386.deb
+  276  dpkg -i bmon_2.0.1-3_i386.deb
+  277  bmon
+  278  ls
+  279  ls
+  280  cp -R bmon* curso
+  281  cd curso
+  282  ls
+  283  git add .
+  284  git commit -a
+  285  git push
+  286  ls
+  287  aptitude install debmirror
+  288  debmirror
+  289  debmirror --host=http.us.debian.org --root=debian --cleanup --nosource --progress --ignore-release-gpg --arch=i386 --dist=stable --method:http -- secction=main,contrib,non-free /home/soporte/debian
+  290  mkdir /home/soporte/debian
+  291  debmirror --host=http.us.debian.org --root=debian --cleanup --nosource --progress --ignore-release-gpg --arch=i386 --dist=stable --method:http -- secction=main,contrib,non-free /home/soporte/debian
+  292  debmirror --host=http.us.debian.org --root=debian --cleanup --nosource --progress --ignore-release-gpg --arch=i386 --dist=stable --method:http -- section=main,contrib,non-free /home/soporte/debian
+  293  debmirror --host=http.us.debian.org --root=debian --cleanup --nosource --progress --ignore-release-gpg --arch=i386 --dist=stable --method:http --section=main,contrib,non-free /home/soporte/debian
+  294  debmirror --host=http.us.debian.org --root=debian --cleanup --nosource --progress --ignore-release-gpg --arch=i386 --dist=stable --method=http --section=main,contrib,non-free /home/soporte/debian
+  295  cd ..
+  296  cd ..
+  297  ls
+  298  cd debian
+  299  ls -la
+  300  aptitude install apache
+  301  aptitude install apache2
+  302  ls
+  303  nano /etc/apt/sources.list
+  304  apt-get update
+  305  nano /etc/apt/sources.list
+  306  apt-get update
+  307  nano /etc/apt/sources.list
+  308  nano /etc/apt/sources.list
+  309  nano /etc/apt/sources.list
+  310  nano /etc/hosts
+  311  /etc/init.d/networking restart
+  312  aptitude install aptmirror
+  313  nano /etc/apt/sources.list
+  314  apt-get update
+  315  aptitude install apt-mirror
+  316  ls
+  317  cd ..
+  318  ls
+  319  cd ..
+  320  ls
+  321  cd soporte
+  322  ls
+  323  nano etc/apt/mirror.lis
+  324  nano etc/apt/mirror.list
+  325  nano /etc/apt/mirror.list
+  326  aptitude install canaima-semilla
+  327  nano etc/apt/mirror.lis
+  328  nano /etc/apt/mirror.list
+  329  aptitude install canaima-semilla
+  330  aptitude install canaima-semilla
+  331  aptitude install imagemagick
+  332  c-s costruir --medio="iso" --arquitectura="i386" --sabor="popular"
+  333  c-s construir --medio="iso" --arquitectura="i386" --sabor="popular"
+  334  c-s construir --medio="iso" --arquitectura="i386" --sabor="curso"
+  335  c-s construir --medio="iso" --arquitectura="i386" --sabor="popular"
+  336  aptitude install x11bnc
+  337  aptitude install x11vnc
+  338  x11vnc
+  339  aptitude install xtighvncviewer
+  340  aptitude install xtightvncviewer
+  341  ifconfig
+  342  nano /etc/apt/sources.list
+  343  nano /etc/apt/sources.list
+  344  nano /etc/apt/sources.list
+  345  nano /etc/apt/sources.list
+  346  mkdir distro
+  347  cd distro
+  348  wget http://192.168.10.91/imagen.tar
+  349  tar -xvf imagen.tar
+  350  ls
+  351  cd chroot/
+  352  ls
+  353  cd ..
+  354  chroot chroot/
+  355  lb binary
+  356  wget http://192.168.10.91/control.tar
+  357  tar -xvf control.tar
+  358  lb binary
+  359  ls
+  360  cd binary
+  361  ls
+  362  cd live
+  363  ls
+  364  lb cd ..
+  365  cd ..
+  366  ls
+  367  cd ..
+  368  ls
+  369  lb debostrap
+  370  lb bootstrap
+  371  lb chroot
+  372  ls
+  373  cd chroot/
+  374  ls
+  375  cd ..
+  376  lb binary
+  377  ls
+  378  cd binary/
+  379  ls
+  380  cd live/
+  381  ls
+  382  cd ..
+  383  ls
+  384  ls
+  385  cd ..
+  386  lb binary_iso
+  387  ls
+  388  ls
+  389  cd ..
+  390  rm -r distro
+  391  mkdir distro
+  392  cd distro
+  393  ls
+  394  history
+  395  wget http://192.168.10.96/carpeta.tar
+  396  wget http://192.168.10.96/carpeta.tar
+  397  tar -xvf carpeta.tar 
+  398  ls
+  399  cd carpeta
+  400  ls
+  401  lb binary/
+  402  lb binary
+  403  ls
+  404  cd ..
+  405  mmkdir distro
+  406  cd di
+  407  mkdir distro2
+  408  ls
+  409  cd distro2/
+  410  lb config --architecture=i386 --linux-flavours=686-pae 486 --distribution=stable --mode=debian --apt=aptitude --apt-recommends=false --apt-secure=false --bootloader=syslinux --bootstrap=debootstrap --binary-images=iso --archive-areas=main contrib non-free --mirror-bootstrap=http://192.168.10.77/debian --mirror-chroot=http://192.168.10.77/debian --mirror-chroot-security=none --mirror-chroot-backports=none --mirror-binary=http://192.168.10.77/debian --mirror-binary-security=none --mirror-binary-backports=none --mirror-debian-installer=http://192.168.10.77/debian --security=false --backports=false --source=false --iso-volume=cursoasl --iso-publisher=RonaldCaruci --iso-application=canaima-cursoasl --debian-installer=false --win32-loader=false --memtest=none --bootappend-live=boot=live live-config live-config.timezone=America/Caracas live-config.locales=es_VE.UTF-8 live-config.hostname=canaima-cursoasl live-config.username=fenix live-config.user-fullname=fenix live-config.keyboard-layouts=latam live-config.keyboard-model=pc105 live-config.hooks=medium quiet splash vga=791 --parent-mirror-bootstrap=http://192.168.10.77/debian --parent-distribution=stable --parent-archive-areas=main contrib non-free --parent-debian-installer-distribution=stable --parent-mirror-debian-installer=http://192.168.10.77/debian --parent-mirror-debian-installer=http://192.168.10.77/debian --parent-mirror-chroot=http://192.168.10.77/debian --parent-mirror-chroot-security=none --parent-mirror-chroot-updates=none --parent-mirror-chroot-backports=none --parent-mirror-binary=http://192.168.10.77/debian --parent-mirror-binary-security=none --parent-mirror-binary-updates=none --parent-mirror-binary-backports=none --mirror-chroot-updates=none --mirror-binary-updates=none --updates=false --apt-indices=none --cache-indices=false --apt-source-archives=false --system=live --firmware-binary=false --firmware-chroot=false
+  411  ls
+  412  lb boostrap
+  413  lb bootstrap
+  414  lb chroot
+  415  EXIT
+  416  exit
+  417  clear
+  418  cd ..
+  419  exit
+  420  exit
+  421  cd /
+  422  cd /usr/
+  423  ls
+  424  cd src
+  425  ls
+  426  clear
+  427  ls
+  428  ls
+  429  wget http://102.168.10.101/linux.tar
+  430  wget http://192.168.10.101/linux.tar
+  431  ls
+  432  tar -xvf linux.tar 
+  433  ls
+  434  cd linux-3.15.2
+  435  ls
+  436  cd ..
+  437  ls
+  438  clear
+  439  ls
+  440  aptitude install libncursesw5 libncursesw5-dbg libncursesw5-dev
+  441  ls
+  442  cd linux-3.15.2/
+  443  ls
+  444  clear
+  445  ls
+  446  cd CREDITS
+  447  nano CREDITS
+  448  clear
+  449  nano CREDITS
+  450  make menuconfig
+  451  ls
+  452  make menuconfig
+  453  aptitude install libncursesw5 libncursesw5-dbg libncursesw5-dev
+  454  make menuconfig
+  455  cd ..
+  456  ls
+  457  rm -R *
+  458  ls
+  459  wget http://192.168.10.101/linux.tar
+  460  tar -xvf linux.tar 
+  461  ls
+  462  cd linux-3.15.2/
+  463  ls
+  464  crontab -e
+  465  crontab -e
+  466  crontab -e
+  467  cd ..
+  468  ls
+  469  cd linux-3.15.2/
+  470  ls
+  471  make menuconfig
+  472  aptitude install libncursesw5 libncursesw5-dbg libncursesw5-dev
+  473  aptitude serach libncursesw5 libncursesw5-dbg libncursesw5-dev
+  474  aptitude search libncursesw5 libncursesw5-dbg libncursesw5-dev
+  475  make menuconfig
+  476  cd ..
+  477  clear
+  478  ls
+  479  cd ..
+  480  ls
+  481  cd src
+  482  ls
+  483  rm -R .
+  484  rm -R *
+  485  ls
+  486  clear
+  487  ls
+  488  wget http://192.168.10.101/linux.tar
+  489  tar -xvf linux.tar 
+  490  cd linux-3.15.2/
+  491  make menuconfig
+  492  aptitude install libncursesw5 libncursesw5-dbg libncursesw5-dev
+  493  aptitude search libncursesw5 libncursesw5-dbg libncursesw5-dev
+  494  ls
+  495  chmod -065 tot.txt
+  496  chmod 065 tot.txt
+  497  chmod 065 toto.txt
+  498  exit
+  499  clear
+  500  cd control
+  501  ls
+  502  cd CursoaslBarquisimeto
+  503  ls
+  504  clear
+  505  ls
+  506  cd joseAlopez/
+  507  ls
+  508  pwd
+  509  ls
+  510  more examen-12436937
+  511  ls
+  512  mkdir sl
+  513  ls
+  514  clear
+  515  ls
+  516  cd sl
+  517  ls
+  518  clear
+  519  ls
+  520  nano /etc/apt/sources.list
+  521  nano /etc/apt/sources.list
+  522  apt-get source sl
+  523  nano /etc/apt/sources.list
+  524  aptitude update
+  525  apt-get source sl
+  526  ls
+  527  cd sl-3.03/
+  528  ls
+  529  nano sl.h
+  530  nano sl.h
+  531  CD ..
+  532  cd ..
+  533  clear
+  534  ls
+  535  cd ..
+  536  sl
+  537  ls
+  538  cd sl
+  539  aptitude remove --purge sl
+  540  dpkgbuild-package -us -uc
+  541  ls
+  542  cd sl-3.03/
+  543  dpkgbuild-package -us -uc
+  544  aptitude search buildpackage
+  545  clear
+  546  ls
+  547  cd ..
+  548  ls
+  549  dpkgbuild-package -us -uc
+  550  ls
+  551  cd sl-3.03/
+  552  ls
+  553  dpkgbuild-package -us -uc
+  554  cd ..
+  555  ls
+  556  cd ..
+  557  ls
+  558  dpkgbuild-package -us -uc
+  559  aptitude install nss-updatedb
+  560  aptitude search nss-updatedb
+  561  locate dpkgbuild-package
+  562  clear
+  563  ls
+  564  cd sl
+  565  ls
+  566  cd sl-3.03/
+  567  ls
+  568  sl
+  569  sl debian
+  570  clear
+  571  sl
+  572  clear
+  573  ls
+  574  cd 
+  575  ls
+  576  cd ..
+  577  ls
+  578  clear
+  579  ls
+  580  cd control
+  581  ls
+  582  cd home
+  583  ls
+  584  cds soporte
+  585  cd soporte
+  586  ls
+  587  clear
+  588  ls
+  589  cd control
+  590  ls
+  591  cd CursoaslBarquisimeto
+  592  ls
+  593  cd joseAlopez
+  594  ls
+  595  clear
+  596  ls
+  597  cd sl
+  598  ls
+  599  dpkgbuild-package -us -uc
+  600  cd sl
+  601  pwd
+  602  cd sl-3.03/
+  603  ls
+  604  dpkgbuild-package -us -uc
+  605  dpkg-buildpackage -us -uc
+  606  ls
+  607  cd ..
+  608  ls
+  609  cd ..
+  610  ls
+  611  cd sl
+  612  ls
+  613* 
+  614  ls
+  615  dpkg-source --commit
+  616  dpkg-buildpackage -us -uc
+  617  ls
+  618  cd ..
+  619  ls
+  620  dpkg -i sl_3.03-17_i386.deb
+  621  sl
+  622  sl
+  623  ls
+  624  sl
+  625  cd ..
+  626  ls
+  627  sl
+  628  clear
+  629  slls
+  630  ls
+  631  cd sl
+  632  ls
+  633  cd sl-3.03/
+  634  ls
+  635  nano sl.h
+  636* dpkg -i sl_3.03-17_i386.deb
+  637  ls
+  638  cd ..
+  639  ls
+  640* dpkg -i sl_3.03-17_i386.deb.03-17_i
+  641  sl
+  642  clear
+  643  iwlist scan
+  644  iwlist- scan
+  645  iwlist-scan
+  646  clear
+  647  ls -la
+  648  cd ..
+  649  ls
+  650  ls -la
+  651  add user
+  652  passwd
+  653  clear
+  654  ifconfig wlan
+  655  ls
+  656  history >historyLopez.txt
+  657  ls
+  658  ls /
+  659  history >/home/soporte/control/CursoaslBarquisimeto/joseAlopez/historyLopez.txt

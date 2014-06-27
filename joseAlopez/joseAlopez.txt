@@ -1,0 +1,125 @@
+Actividad. Curso de Administracion en Linux
+
+
+- Entrar como root, ejecutar
+
+history -c
+
+ Crear un archivo Examen-(Número de la Cédula de Identidad) con los siguientes datos:
+-Nombre Completo
+-Cédula de Identidad
+-Dirección de correo electrónico
+-Institución a la que pertenece
+
+3- agregar este .txt que ha sido modificado con tu nombre y apellido.
+
+5- Crear 5 archivos llamados y cambiar permisologia
+ -curso1.txt   ---RW-R-X  065
+ -curso2.txt   RWX-W-RW-  726
+ -curso3.txt   --X--X--X  111
+ -curso4.txt   -W--W-RWX  227
+ -curso5.txt   ---RW-R--  064
+
+6-Como puedo visualizar las particiones del disco duro
+fdisk -l
+7-Como matamos un proceso del computador
+kill ID del proceso
+8-Crear un carpeta llamada openoffice-writer.
+  -abrir writer
+  -guardar la busqueda en archivo llamado writer.txt
+ 
+9-Crear un carpeta llamada procesador.
+  -guardar la busqueda en archivo llamado procesador.txt
+
+10-Como configuras una interfaz de red con dhcp
+ifconfig
+ifconfig wlan0 up
+aptitude install wireless-tools (para instalar herramienta de scaning)
+aptitude install dhcp-client (instalo el cliente dhcp)
+iwlist -scan
+
+11-Que sucede cuando ejecutas el
+comando: touch registros
+-Crea un archivo vacío llamado registros.
+
+12-El comando: more examen
+- Despliega el contenido del archivo examen, una pantalla a la vez.
+
+13-crear un carpeta sl
+descargar el paquete fuente de sl, modificar el tren 
+con su nombre generar un nuevo paquete, e instalarlo
+  subir dichos paquetes al servidor de github
+mkdir sl
+cd sl
+nano /etc/apt/sources.list  m (para descomentar la linea de fuentes ...-src)
+aptitude update (actualizo repositorio)
+apt-get source sl (lo descargo como fuente)
+cd sl-3.03                    (entro en la carpeta)     
+nano sl.h                     (edito)
+aptitude remove --purge sl    (remuevo y purgo)  
+commit -a                     (actualizo)
+dpkgbuild-package -us -uc     (genero)
+dpkg -i sl_3.03-17_i386.deb   (instalo)
+
+
+14-comando para listar redes inalambricas.
+ifconfig wlan
+
+
+15-como funcionan x11vnc, pasos del cliente y servidor
+se instalo el paquete: x11vnc y el visor: xtightvcnviewer
+se arranca en ambos equipos: x11vnc luego altF2 escribimos xtightvncviewer
+y seguidamente colocamos la ip del servidor o equipo al que me quiero conectar
+
+
+16- Como agregamos el usuario y gestionamos el cambio de contraseña
+add 
+passwd
+
+17-crear un carpeta canaima-semilla, copiar un sabor desde primera-base
+  llamarlo con el nombre de ustedes, editarlo todos los perfil personalizado.
+   - agregar un txt, con los pasos para ejecutar la creacion de la .iso
+
+18- donde se modifican los repositorios en debian, 
+   - nano /etc/apt/sources.list
+
+   - cuales son los pasos para ejecutar un repositorio nuevo.
+	-se instala la herramienta debmirror o apt-mirror 
+	-parametrizamos el debmirror con la distribución, la arquitectura, debmirror --host=http.us.debian.org --root=debian –cleanup --nosource --progress --ignore-release-gpg --arch=i386 --dist=stable --method=http --section=main,contrib,non-free /home/soporte/debian
+	-se instala un servidor Web como apache
+	-se hace un enlace hacia var/www
+	-se reconfigura el sources.list
+
+19- Las particiones de un disco fisico se nombran mediante el nombre de dispositivo y el
+número de partición:
+	-sda         (discoA)
+	 -sda1       (particionA1)
+	 -sda2       (particionA2)
+	
+	-sdb         (discoB)
+	 sdb1        (particionB1)
+	 sdb2        (particionB2)
+
+20- Como hago un repositorio con debmirror, comando.
+respondida en la 18
+
+21- Guardar el history en .txt para verificar todo lo anterior fue realizado por ti.
+history >/home/soporte/control/CursoaslBarquisimeto/joseAlopez/historyLopez.txt
+ 
+
+22- como listo las redes inalambricas.
+respondida en la 14
+
+23- pasos para compilar el kernel
+
+
+24- crear un archivo permiso.txt y que los dueños sean root y soporte., ejecutar cat.
+chown root.soporte permiso.txt
+
+25- Como matar un procesos usando top.
+ejecutamos top
+copiamos el ID del proceso
+luego kill ID enter
+
+
+4-hacer un commit
