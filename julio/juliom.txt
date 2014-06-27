@@ -1,0 +1,125 @@
+Actividad. Curso de Adminsitracion en Linux
+
+
+- Entrar como root, ejecutar
+
+history -c
+
+
+-Crear un proyecto en github llamado actividadcursoasl
+ Crear un archivo Examen-(Número de la Cédula de Identidad) con los siguientes datos:
+-Nombre Completo
+-Cédula de Indentidad
+-Dirección de correo electrónico
+-Institución a la que pertenece
+3- agregar este .txt que ha sido modificado con tu nombre y apellido.
+4-hacer un commit
+
+5- Crear 5 archivos llamados y cambiar permisologia
+ -curso1.txt   ---RW-R-X
+ -curso2.txt   RWX-W-RW-   chmod 756 curso2.txt
+ -curso3.txt   --X--X--X   chmod 111
+ -curso4.txt   -W--W-RWX   chmod 227
+ -curso5.txt   ---RW-R--   chmod 064
+
+6-Como puedo visualizar las particiones del disco duro
+fdisk -l
+7-Como matamos un proceso del computador
+kill -9 id  previo se debe ubicar el numero del proceso de la aplicacion (id) con el comando
+top se visualiza el pid
+
+8-Crear un carpeta llamada openoffice-writer.
+  -abrir writer
+  -guardar la busqueda en archivo llamado writer.txt
+R= ps aux | grep Libreoffice >> libreoffice.txt
+ 
+9-Crear un carpeta llamada procesaro.
+  -guardar la busqueda en archivo llamado procesador.txt
+  cat /proc/cpuinfo
+ps aux | grep /proc/cpuifo >> procesador.txt
+
+10-Como configuras una interfaz de red con dhcp
+editar el archivo /etc/network/interfaces y colocar
+wlan eth0 dhcp
+
+11-Que sucede cuando ejecutas el
+comando: touch registros
+-Se crea un archivo con el nombre de registros
+- Copia el archivo registros al directorio actual.
+RESPUESTA x-Crea un archivo vacío llamado registros.****
+-Borra el archivo registros.
+-Mueve el archivo registros al directorio actual
+
+12-El comando: more examen
+RESPUESTA x- Despliega el contenido del archivo examen, una pantalla a la vez.***
+- Nos cambia al directorio examen.
+- Crea el archivo examen el directorio actual.
+- Muestra las primeras líneas del archivo examen
+
+13-crear un carpeta sl  (mkdir sl)
+Modificar el sources.list y descomentar el deb-src
+aptitude update
+descargar el paquete fuente de sl, (apt-get source sl)
+dpkg-source --commit  colocar un nombre el parche
+dpkg-buildpackages -us -uc se genera un paquete sl_3.03-17_i386.deb en un directorio superior donde se esta
+trabajando luego se instala: dpkg -i sl_3.03-17_i386.deb y se  corre como usurio normal $sl
+
+modificar el tren con su nombre generar un nuevo paquete, e instalarlo
+subir dichos paquetes al servidor de github    
+
+14-comando para listar redes inalambricas.
+R= iwlist scann
+
+15-como funcionan x11vnc, pasos del cliente y servidor
+R=Se debe tener instalado x11vnc, se debe instalar el cliente aptitude install xtightvncviewer luego al ejecutar x11vnc
+ se le da  ALF+f2 y se coloca el comando xtightvncviewer
+
+
+16- Como agregamos el usuario y gestionamos el cambio de contraseña
+   adduser nombre de usuario
+   passwd usuario y se coloca la nueva contraseña
+
+17-crear un carpeta canaima-semilla, (mkdir canaima-semilla) copiar un sabor desde primera-base
+  llamarlo con el nombre de ustedes, editarlo todos los perfil personalizado.
+   subir dicha carpeta a github.
+   - agregar un txt, con los pasos para ejecutar la creacion de la .iso 
+ touch creacion_iso.txt 
+lb bootstrap 
+lb chroot
+lb binary
+
+18- donde se modifican los repositorios en debian,
+EN /etc/apt/sources.list 
+   - cuales son los pasos para ejecutar un repositorio nuevo.
+    Editar el archivo /etc/apt/sources.list grabar y luego aptitude update
+
+19- Las particiones de un disco fisico se nombran mediante el nombre de dispositivo y el
+número de partición: sda1, sda0 dico sata ide indicando la particion 1,2
+
+20- Como hago un repositorio con debmirror, comando.
+aptitude install debmirror
+
+
+21- Guardar el history en .txt para verificar todo lo anterior fue realizado por ti.
+history >> julio_history.txt
+ 
+
+22- como listo las redes inalambricas.
+R= iwlist scann
+
+23- pasos para compilar el kernel
+Bajar el fuentes del kernel copiarlo al directorio /usr/src luego instalar
+aptitude install libncurses5w-dev libncurses5-dev libncursesw5-dbg libncursesw5
+make menuconfig alli entrar en las configuracion de interfaz grafica salir grabar y por ultimo
+ejecutar make
+
+24- crear un archivo permiso.txt y que los dueños sean root y soporte., ejecutar cat.
+
+chgrp soporte permiso.txt
+
+25- Como matar un procesos usando top.
+ejecuto top verifico el proceso a matar (PID) se ejecuta kill -9 PID
+o se le da la tecla k y se coloca el PID
+
+
+
