@@ -1,4 +1,0 @@
-soporte  11490  1.8  9.9 539352 102532 ?       Sl   15:13   1:30 cunaguaro
-soporte  11531  0.5  2.2 138652 23036 ?        Sl   15:13   0:27 /usr/lib/cunaguaro/xulrunner/plugin-container /usr/lib/flashplugin-nonfree/libflashplayer.so -greomni /usr/lib/cunaguaro/xulrunner/omni.ja -appdir /usr/lib/cunaguaro/browser 11490 plugin
-soporte  12014  0.0  0.0   3488   728 pts/0    S+   16:16   0:00 grep -l cunaguaro
-soporte  12141  0.0  0.0   3488   720 pts/3    S+   16:34   0:00 grep cunaguaro

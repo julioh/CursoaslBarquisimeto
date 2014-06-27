@@ -1,3 +1,0 @@
-soporte   3134  3.2 23.8 738912 244784 ?       Sl   09:03  14:01 cunaguaro
-soporte   3266  0.7  3.4 194320 35468 ?        Sl   09:40   3:11 /usr/lib/cunaguaro/xulrunner/plugin-container /usr/lib/flashplugin-nonfree/libflashplayer.so -greomni /usr/lib/cunaguaro/xulrunner/omni.ja -appdir /usr/lib/cunaguaro/browser 3134 plugin
-root     12297  0.0  0.0   3488   732 pts/2    S+   16:20   0:00 grep --color=auto cunaguaro

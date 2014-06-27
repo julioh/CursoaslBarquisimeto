@@ -1,1 +1,0 @@
-?package(bmon):needs="text" section="Apps/Net" title="bmon" command="/usr/bin/bmon"
