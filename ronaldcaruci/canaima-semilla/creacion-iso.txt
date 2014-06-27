@@ -1,0 +1,10 @@
+- Se ejecuta contruir para que nos realize la lineas de comando del lbconfig
+- Se genera la estructura y realizamos el comando "lb bootstrap" para la creación de los paquetes
+- Ejecutamos "lb chroot" y después vamos un directorio arriba para poder hacer un backup de esta version
+limpia.
+- Sobre la version nueva entramos a la jaula con el comando "chroot chroot/"
+- Dentro de la jaula podremos actualizar lista de repositorios, agregar usuarios con su repectiva contraseña,
+instalar aplicaciones como el gnome y el instalador debian-installer
+- salimos de la jaula
+- Ejecutamos el comando "lb binary"
+- Ya con esto hemos creado y empaquetado el binario de nuestro sistema
