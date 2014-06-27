@@ -1,0 +1,146 @@
+  471  Examen.txt
+  472  touch Examen.txt
+  473  ls
+  474  nano Examen.txt
+  475  nano Examen.txt
+  476  nano Examen.txt
+  477  touch curso1.txt
+  478  touch curso2.txt
+  479  touch curso3.txt
+  480  touch curso4.txt
+  481  touch curso5.txt
+  482  clear
+  483  ls
+  484  nano jeansuarez.txt
+  485  nano jeansuarez.txt
+  486  ls
+  487  cd control/
+  488  ls
+  489  cd CursoaslBarquisimeto/
+  490  ls
+  491  cd jeansuarez/
+  492  ls
+  493  ls -la
+  494  cd /home/soporte/control/CursoaslBarquisimeto/jeansuarez
+  495  ls
+  496  nano Examen.txt 
+  497  df -h
+  498  ls
+  499  cd control/
+  500  ls
+  501  cd CursoaslBarquisimeto/
+  502  ls
+  503  cd jeansuarez/
+  504  ls
+  505  cd openofficeopenoffice-writer/
+  506  ls
+  507  ls
+  508  cd ..
+  509  ls
+  510  rm openofficeopenoffice-writer/
+  511  rm openofficeopenoffice-writer/
+  512  rm -R openofficeopenoffice-writer/
+  513  ls
+  514  mkdir openoffice-writer
+  515  ls
+  516  ps -aux | grep writer
+  517  writer
+  518  ls
+  519  cd openoffice-writer/
+  520  ls
+  521  nano writer.txt
+  522  cd ..
+  523  touch registros
+  524  ls
+  525  cp registros /home/soporte/control/CursoaslBarquisimeto/jeansuarez/
+  526  ls
+  527  rm registros 
+  528  ls
+  529  touch registros
+  530  mv registros /home/soporte/control/CursoaslBarquisimeto/jeansuarez/
+  531  cp registros /home/soporte/control/CursoaslBarquisimeto/jeansuarez/
+  532  more examen
+  533  ls
+  534  more Examen.txt 
+  535  mkdir sl
+  536  ls
+  537  ifconfig
+  538  nano disabler.desktop
+  539  nano disabler.sh
+  540  tail -f
+  541  iwconfig
+  542  iwlist scan
+  543  ls
+  544  mkdir procesaro
+  545  rm procesaro/
+  546  rm -R procesaro/
+  547  ls
+  548  mkdir procesador
+  549  ls
+  550  grep | procesador.txt
+  551  find grep | procesador.txt
+  552  find procesador.txt
+  553  nano procesador.txt
+  554  find procesador.txt
+  555  mkdir canaima-semilla
+  556  cd
+  557  ls
+  558  cd home
+  559  cd /home/
+  560  ls
+  561  cd soporte/
+  562  ls
+  563  cd /usr/share/
+  564  ls
+  565  cd canaima-semilla/
+  566  ls
+  567  cd profiles/
+  568  ls
+  569  cd primera-base/
+  570  ls
+  571  cp profile.conf /home/soporte/control/CursoaslBarquisimeto/jeansuarez
+  572  ls
+  573  cd
+  574  cd /home/soporte/control/CursoaslBarquisimeto/jeansuarez/
+  575  ls
+  576  cp profile.conf /home/soporte/control/CursoaslBarquisimeto/jeansuarez/canaima-semilla/
+  577  cd canaima-semilla/
+  578  ls
+  579  nano profile.conf 
+  580  ls
+  581  nano creacioniso
+  582  ls
+  583  nano creacioniso 
+  584  ls
+  585  rm creacioniso
+  586  cd ..
+  587  ls
+  588  chmod 065 curso1.txt
+  589  ls -la
+  590  chmod 726 curso2.txt
+  591  chmod 111 curso3.txt
+  592  chmod 227 curso4.txt
+  593  ls -la
+  594  chmod 064 curso5.txt
+  595  chmod 054 curso5.txt
+  596  ls -la
+  597  chmod 064 curso5.txt
+  598  ls -la
+  599  chmod 164 curso5.txt
+  600  ls -la
+  601  chmod 064 curso5.txt
+  602  ls -la
+  603  ls -la
+  604  ls -la
+  605  chgrp soporte permiso.txt
+  606  ls
+  607  ls
+  608  nano permiss
+  609  rm -r permiss
+  610  nano permiso
+  611  nano permiso.txt
+  612  chown root.soporte permiso.txt
+  613  ls -la
+  614  cat
+  615  history
+

@@ -1,0 +1,3 @@
+soporte  25523  0.0  0.2  24044  2784 ?        Sl   14:58   0:00 /usr/lib/libreoffice/program/oosplash --writer
+soporte  25545  1.0  6.1 200480 62780 ?        Sl   14:58   0:01 /usr/lib/libreoffice/program/soffice.bin --writer --splash-pipe=5
+root     25564  0.0  0.0   3488   728 pts/0    S+   15:00   0:00 grep --color=auto writer

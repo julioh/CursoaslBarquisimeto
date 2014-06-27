@@ -1,0 +1,500 @@
+   36  iwconfig
+   37  aptitude install wireless-tools
+   38  ifconfig wlan0 up
+   39  iwlist scann
+   40  iwconfig
+   41  iwconfig wlan0 essid "n"
+   42  iwconfig wlan0 essid "ASL"
+   43  iwconfig
+   44  dhclient wlan0
+   45  ps
+   46  cd ..
+   47  c-s contruir --medio="iso" --arquitecturai386 --sabo="cursoasl"
+   48  c-s contruir --medio="iso" --arquitecturai386 --sabo="popular"
+   49  c-s contruir --medio="iso" --arquitectura="i386" --sabo="cursoasl"
+   50  c-s contruir --medio="iso" --arquitectura="i386" --sabo="popular"
+   51  c-s construir --medio="iso" --arquitectura="i386" --sabo="popular"
+   52  ls
+   53  cd /usr/share/canaima
+   54  ls
+   55  cd ..
+   56  cd canaima-semilla/
+   57  ls
+   58  cd profiles/
+   59  ls
+   60  cd cursoasl/
+   61  ls
+   62  nano profile.conf 
+   63  c-s construir --medio="iso" --arquitectura="i386" --sabor="cursoasl"
+   64  aptitude install xtghtvncviewer
+   65  aptitude install xtightvncviewer
+   66  x11vnc -bg -gui 
+   67  cd /usr/share/canaima-semilla/isos/
+   68  ls
+   69  ls chroot
+   70  ls chroot
+   71  c-s construir --medio="iso" --arquitectura="i386" --sabor="cursoasl"
+   72  c-s construir --medio="iso" --arquitectura="i386" --sabor="cursoasl"
+   73  c-s construir --medio="iso" --arquitectura="i386" --sabor="cursoasl"
+   74  ls
+   75  cd ..
+   76  ls
+   77  cd profiles/
+   78  ls
+   79  cd cursoasl/
+   80  ls
+   81  cd chroot/
+   82  ls
+   83  cd ..
+   84  ls
+   85  cd ..
+   86  ls
+   87  cd ..
+   88  ls
+   89  cd /home/soporte/
+   90  ls
+   91  mkdir distro
+   92  cd distro/
+   93  ls
+   94  wget http://192.168.10.91/imagen.tar
+   95  ls
+   96  tar -xvf imagen.tar 
+   97  ls
+   98  cd chroot/
+   99  cd ..
+  100  ls chroot
+  101  chroot chroot/
+  102  chroot chroot/
+  103  top
+  104  ls
+  105  cd carpeta/
+  106  ls
+  107  cd config/
+  108  ls
+  109  nano bootstrap 
+  110  history 
+  111  cd control/
+  112  ls
+  113  aptitude install x11vnc
+  114  x11vnc
+  115  history 
+  116  aptitude install nmap
+  117  nmap -A -T4 192.168.10.191
+  118  nmap -A -T4 192.168.10.191
+  119  nmap -A -T4 192.168.10.91
+  120  ps
+  121  ps -aux | vnc
+  122  ps -aux | grep vnc
+  123  kill -9 4025
+  124  ps -aux | grep vnc
+  125  kill -9 4053
+  126  ps -aux | grep vnc
+  127  kill -9 4474
+  128  kill -9 5034
+  129  ssh
+  130  nano /etc/ssh/sshd_config 
+  131  /etc/init.d/ssh restart
+  132  ifconfig 
+  133  nmap 192.168.10.81
+  134  nmap  -A .T4 192.168.10.81
+  135  cat /etc/services 
+  136  cat /etc/services >> servicios.txt
+  137  nano servicios.txt 
+  138  cd /usr/share/canaima-semilla/profiles/cursoasl/
+  139  ls
+  140  c-s
+  141  c-s construir --medio="iso" --arquitectura="i386" --sabor="cursoasl"
+  142  nano profile.conf 
+  143  c-s construir --medio="iso" --arquitectura="i386" --sabor="cursoasl"
+  144  cd /log
+  145  nano profile.conf 
+  146  c-s construir --medio="iso" --arquitectura="i386" --sabor="cursoasl"
+  147  nano 
+  148  lb build
+  149  ls chroot
+  150  ls
+  151  lb binary
+  152  ls
+  153  cd binary/
+  154  ls
+  155  cd live/
+  156  ls
+  157  updatedb 
+  158  locate 
+  159  cd ..
+  160  ls
+  161  cd ..
+  162  ls
+  163  ls -la
+  164  cd .build/
+  165  ls
+  166  cd ..
+  167  ls
+  168  cd /home/soporte/control/
+  169  ls
+  170  cd ..
+  171  ls
+  172  cd distro/
+  173  ls
+  174  wget http://192.168.10.91/control.tar
+  175  ls
+  176  tar -xvf control.tar
+  177  ls chroot
+  178  lb binary
+  179  wget http://192.168.10.96/carpeta.tar
+  180  ls
+  181  rm binary/
+  182  rm -r binary/
+  183  rm -r cache
+  184  rm -r chroot/
+  185  rm -r control.tar 
+  186  rm -r imagen.tar 
+  187  tar -xvf carpeta.tar 
+  188  ls
+  189  lb binary
+  190  ls
+  191  cd carpeta/
+  192  ls
+  193  lb binary
+  194  cls
+  195  ls
+  196  cd config/
+  197  ls
+  198  nano bootstrap 
+  199  chroot chroot/
+  200  cd ..
+  201  chroot chroot/
+  202  lb binary/
+  203  lb binary
+  204  chroot chroot/
+  205  ls
+  206  cd config/
+  207  ls
+  208  nano bootstrap 
+  209  cd ..
+  210  25
+  211  chroot chroot/
+  212  lb binary
+  213  chroot chroot/
+  214  ls
+  215  ls
+  216  cd config/
+  217  ls
+  218  nano bootstrap 
+  219  cd ..
+  220  chroot chroot/
+  221  chroot chroot/
+  222  lb binary_iso
+  223  ls
+  224  cd config/
+  225  ls
+  226  cd ..
+  227  ls
+  228  init 0
+  229  ls
+  230  cd control/
+  231  ls
+  232  cd Asl
+  233  cd ASL
+  234  ls
+  235  cd ..
+  236  cd prueba
+  237  ls
+  238  cd ..
+  239  cd ..
+  240  mkdir imagenjulio
+  241  cd imagenjulio/
+  242  nano archivo.sh
+  243  ls
+  244  ./archivo.sh
+  245  ls
+  246  chmod 755 archivo.sh 
+  247  ./archivo.sh
+  248  ls
+  249  lb build
+  250  lb binary_iso
+  251  ls
+  252  cd ..
+  253  ls
+  254  mkdir imagenprueba
+  255  cp /home/soporte/imagenjulio/binary.iso /home/soporte/imagenprueba/
+  256  cd imagenprueba/
+  257  ls
+  258  nano /etc/apt/sources.list
+  259  aptitude update
+  260  nano /etc/apt/sources.list
+  261  aptitude update
+  262  apt-get install qemu-
+  263  apt-get install qemu
+  264  apt-get install qemu -
+  265  qemu -i create mi_imagen.iso 2G
+  266  qemu-i create mi_imagen.iso 2G
+  267  qemu -i create mi_imagen.iso 2G
+  268  qemu- i create mi_imagen.iso 2G
+  269  qemu-i create mi_imagen.iso 2G
+  270  qemu -i create mi_imagen.iso 2G
+  271  LS
+  272  ls
+  273  qemu-img create mi_imagen.iso 2G
+  274  ls
+  275  qemu -hda mi_imagen.iso -cdrom /dev/cdrom -boot d -m 512
+  276  qemu -hda mi_imagen.iso -cdrom binary.iso -boot d -m 512
+  277  chroot chroot/
+  278  ls
+  279  cd ..
+  280  chroot chroot/
+  281  ls chroot
+  282  ls
+  283  cd imagenjulio/
+  284  ls
+  285  chroot chroot
+  286  ls
+  287  cd ..
+  288  ls
+  289  cd imagenprueba/
+  290  ls
+  291  qemu -hda mi_imagen.iso -cdrom binary.iso -boot d -m 128
+  292  cd ..
+  293  ls
+  294  cd imagenjulio
+  295  ls
+  296  ls
+  297  cd ..
+  298  ls
+  299  cd imagenrespaldo/
+  300  ls
+  301  ls
+  302  cd ..
+  303  ls
+  304  cd control
+  305  ls
+  306  cd distro
+  307  cd ..
+  308  ls
+  309  cd distro/
+  310  ls
+  311  mkdir emulacion
+  312  ls
+  313  ls
+  314  wget 192.168.10.101/linux.tar
+  315  ls
+  316  mv linux.tar ..
+  317  ls
+  318  cd ..
+  319  ls
+  320  tar xvf linux.tar 
+  321  ls
+  322  mv linux-3.15.2/ /usr/src
+  323  exit
+  324  ls
+  325  cd imagenjulio/
+  326  cd ..
+  327  ls
+  328  cd control
+  329  ls
+  330  cd prueba
+  331  ls
+  332  mkdir emulacion
+  333  chmod 755 emulacion/
+  334  ls
+  335  cd ..
+  336  ls
+  337  cd ..
+  338  ls
+  339  cd imagenjulio
+  340  ls
+  341  cd ..
+  342  ls
+  343  cd imagenprueba/
+  344  ls
+  345  ls
+  346  ls
+  347  ls
+  348  cd ..
+  349  ls
+  350  cd imagenjulio/
+  351  ls
+  352  cd ..
+  353  ls
+  354  mkdir imagenjulio2
+  355  cd imagenjulio
+  356  ls
+  357  cp archivo.sh /home/soporte/imagenjulio2/
+  358  cd imagenjuli2
+  359  cd imagenjulio2
+  360  cd ..
+  361  cd imagenjulio2
+  362  ls
+  363  ./archivo.sh 
+  364  mkdir emulacion
+  365  ls
+  366  lb bootstrap
+  367  lb chroot
+  368  ls
+  369  cd emulacion/
+  370  ls
+  371  cd ..
+  372  cd ..
+  373  ls
+  374  cd imagen2
+  375  cd imagenjulio2
+  376  ls
+  377  cd ..
+  378  ls
+  379  mkdir emulacionjulio
+  380  ls
+  381  cd imagenjulio2
+  382  ls
+  383  cp *.* /home/soporte/emulacionjulio/
+  384  cd ..
+  385  ls
+  386  cd emulacionjulio/
+  387  ls
+  388  chroot chroot/
+  389  ls
+  390  ls
+  391  cd ..
+  392  ls
+  393  cd imagenjulio2
+  394  ls
+  395  cp -r *.* /home/soporte/emulacionjulio/
+  396  cd ..
+  397  ls
+  398  cd emulacionjulio/
+  399  ls
+  400  ls
+  401  cd ..
+  402  ls
+  403  cd imagenjulio2
+  404  ls
+  405  cd ..
+  406  ls
+  407  cp -r imagenjulio2/ imagenrespaldo/
+  408  rm -r emulacionjulio/
+  409  ls
+  410  ls
+  411  cd imagenrespaldo/
+  412  ls
+  413  ls
+  414  chroot chroot/
+  415  ls
+  416  lb binary
+  417  ls
+  418  cp binary.iso /home/soporte/distro/emulacion/
+  419  cd ..
+  420  ls
+  421  cd distro/
+  422  ls
+  423  cd emulacion/
+  424  ls
+  425  ls
+  426  qemu-img create mi_imagen.iso 2G
+  427  qemu -hda mi_imagen.iso -cdrom binary.iso -boot d -m 512
+  428  exit
+  429  aptitude install libncurses5-dev libncursesw5-dbg libncursesw5
+  430  ls
+  431  cd linux-3.15.2/
+  432  ls
+  433  make menuconfig
+  434  make
+  435  history 
+  436  ls
+  437  cd control
+  438  ls
+  439  cd prueba/
+  440  ls
+  441  cd CursoaslBarquisimeto/
+  442  ls
+  443  cd julio
+  444  ls
+  445  history
+  446  touch registros
+  447  ls
+  448  pwd
+  449  MORE EXAMEN
+  450  more examen
+  451  ls
+  452  more examen-11434385.txt 
+  453  mkdir sl
+  454  apt-get source sl
+  455  nano /etc/apt/sources.list
+  456  aptitude install buil-essential
+  457  nano /etc/apt/sources.list
+  458  aptitude install buil-essential
+  459  iwlist scann
+  460  aptitude buil-essential
+  461  aptitude install buil-essential
+  462  apt-get source sl
+  463  apt-get install dpkg-dev
+  464  ls
+  465  nanols -all
+  466  ls -all
+  467  cd sl
+  468  ls
+  469  cd ..
+  470  ls
+  471  cd sl-3.03/
+  472  ls
+  473  nano sl.h
+  474  dpkg-buildpackage -us -uc
+  475  sl
+  476  ./sl
+  477  ls
+  478  .sl.h
+  479  ./sl.h
+  480  nano sl.h
+  481  dpkg -source --commit
+  482  dpkg-source --commit
+  483  dpkg-buildpackage -us -uc
+  484  dpkg -i tren
+  485  dpkg -i tren
+  486  ls
+  487  cd ..
+  488  ls
+  489  cd sl
+  490  ls
+  491  cd ..
+  492  cd sl-3.03/
+  493  ls
+  494  cd ..
+  495  ls
+  496  dpkg -i sl_3.03-17_i386.deb 
+  497  exit
+  498  ls
+  499  x11vnc
+  500  adduser julioc
+  501  password julio
+  502  man password
+  503  top
+  504  passwd julioc
+  505  mkdir canaima-semilla
+  506  touch permiso.txt
+  507  ls
+  508  ls -all
+  509  ls -all
+  510  chgrp soporte permiso.txt 
+  511  ls -all
+  512  ls
+  513  cd canaima-semilla/
+  514  ls
+  515  cd ..
+  516  ls
+  517  ls
+  518  cd /usr/share/
+  519  ls
+  520  cd canaima-semilla/
+  521  ls
+  522  cd profiles/
+  523  ls
+  524  cd primera-base/
+  525  ls
+  526  cp profile.conf /home/soporte/control/prueba/CursoaslBarquisimeto/julio/canaima-semilla/julio.conf
+  527  cd /home/soporte/control/prueba/CursoaslBarquisimeto/
+  528  ls
+  529  cd julio/
+  530  ls
+  531  cd canaima-semilla/
+  532  ls
+  533  ls
+  534  nano julio.conf 
+  535  history >> julio_history.txt
