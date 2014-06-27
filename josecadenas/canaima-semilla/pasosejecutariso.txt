@@ -1,0 +1,4 @@
+Creo la carpeta
+traigo el perfil y lo modifico
+modifico el profile.conf
+
