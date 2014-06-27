@@ -1,0 +1,7 @@
+root@canaima-popular:/home/soporte/Documentos/control/CursoaslBarquisimeto/ronaldcaruci# ps -aux | grep writer
+warning: bad ps syntax, perhaps a bogus '-'?
+See http://gitorious.org/procps/procps/blobs/master/Documentation/FAQ
+soporte  14859  0.2  0.2  24044  2784 ?        Sl   14:39   0:00 /usr/lib/libreoffice/program/oosplash --writer
+soporte  14881  3.8  6.0 199492 62364 ?        Sl   14:39   0:01 /usr/lib/libreoffice/program/soffice.bin --writer --splash-pipe=5
+root     14895  0.0  0.0   3488   732 pts/2    S+   14:39   0:00 grep --color=auto writer
+

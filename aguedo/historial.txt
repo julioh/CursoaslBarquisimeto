@@ -1,0 +1,500 @@
+138  sh script.sh 
+  139  time sh script.sh 
+  140  nano script.sh 
+  141  sh script.sh 
+  142  nano script.sh 
+  143  crontab -e
+  144  touch respaldo.sh
+  145  crontab -e
+  146  sh respaldo.sh 
+  147  nano respaldo.sh
+  148  cp -R /home/soporte/control/script.sh .
+  149  crontab -r
+  150  crontab -l
+  151  crontab -e
+  152  crontab -e
+  153  time sh script.sh 
+  154  cat respaldo.txt 
+  155  crontab -e
+  156  time sh script.sh 
+  157  cat respaldo.txt 
+  158  ls /var/www/debian
+  159  nano respaldo.txt 
+  160  rm -rf respaldo.sh
+  161  crontab -e
+  162  time sh script.sh > respaldo.txt 
+  163  cat respaldo.txt 
+  164  time sh script.sh >> respaldo.txt 
+  165  cat respaldo.txt 
+  166  time cat sh script.sh >> respaldo.txt 
+  167  time sh script.sh >> respaldo.txt 
+  168  nano respaldo.txt 
+  169  time cat script.sh >> respaldo.txt 
+  170  nano script.sh 
+  171  crontab -e
+  172  watch ls -lt /var/www/
+  173  crontab -e
+  174  watch /var/www/
+  175  watch ls -lt /var/www/
+  176  watch ls -lt /var/www/
+  177  /etc/init.d/cron stop
+  178  /etc/init.d/cron start
+  179  watch ls -lt /var/www/
+  180  nano script.sh 
+  181  crontab -e
+  182  /etc/init.d/cron restart
+  183  watch ls -lt /var/www/
+  184  ls -lt /var/www/
+  185  cd /var/www/
+  186  ls
+  187  cp -R /root/script.sh /home/soporte/control/cursoasl/
+  188  git add . /home/soporte/control/cursoasl/
+  189  cd /home/soporte/control/cursoasl/
+  190  git add .
+  191  git commit -a
+  192  git pull
+  193  git commit -a
+  194  git push
+  195  crontab -e
+  196  /etc/init.d/cron restart
+  197  cd
+  198  cat /var/log/syslog
+  199  watch cat /var/log/syslog
+  200  crontab -e
+  201  watch cat /var/log/syslog
+  202  ls -lt /var/www/respaldo
+  203  ls -lt /var/www/
+  204  ls -lt /var/www/
+  205  ls -lt /var/www/
+  206  crontab -e
+  207  man git
+  208  man httpd
+  209  /etc/init.d/httpd status
+  210  service apache2 status
+  211  service httpd status
+  212  cd /etc/init/
+  213  ls
+  214  cd ..
+  215  cd init.d/
+  216  ls
+  217  nano apache2 
+  218  /etc/init.d/apache2 dd
+  219  cd /home/soporte/control/CursoaslBarquisimeto/
+  220  git pull
+  221  ls -lh
+  222  cp ronald
+  223  ls
+  224  cd ..
+  225  ls
+  226  cd CursoaslBarquisimeto/
+  227  ls
+  228  ls -lh
+  229  aptitude install imagemagick
+  230  exit
+  231  touch clave.txt
+  232  nano clave.txt 
+  233  exit
+  234  cd
+  235  aptitude install debmirror
+  236  cat /etc/fstab
+  237  aptitude search grandr
+  238  aptitude search apache
+  239  aptitud search apache |more
+  240  aptitud search apache | more
+  241  aptitude search apache | more
+  242  wget www.uny.edu.ve
+  243  pwd
+  244  mkdir /home/soporte/unyweb
+  245  cd /home/soporte/unyweb/
+  246  wget -r www.uny.edu.ve
+  247  ls
+  248  ccd www.uny.edu.ve/
+  249  cd www.uny.edu.ve/
+  250  ls
+  251  cd joomla/
+  252  ls
+  253  cd ..
+  254  cd zonaprivada/
+  255  ls
+  256  cat zonausuario.asp 
+  257  nano zonausuario.asp 
+  258  ls
+  259  cd ..
+  260  ls
+  261  cd popup/
+  262  ls
+  263  cd pregrado/
+  264  ls
+  265  cd ..
+  266  cd ..
+  267  ls
+  268  ls |more
+  269  cd 2010/
+  270  ls
+  271  cd ..
+  272  ls |less
+  273  ls | more
+  274  cd archivos/
+  275  ls
+  276  cd cobranzas/
+  277  ls
+  278  cd ..
+  279  ls
+  280  cd ..
+  281  exit
+  282  history | grep dpkg
+  283  bmon
+  284  exit
+  285  dpkg-source --commit
+  286  cd bmon-2.0.1/
+  287  dpkg-source --commit
+  288  ls
+  289  cd src/
+  290  cd ..
+  291  ls
+  292  dpkg-source --commit
+  293  dpkg-builpackage -us -uc
+  294  dpkg-buildpackage -us -uc
+  295  cd src/
+  296  ls
+  297  nano out_curses.
+  298  nano out_curses.c 
+  299  cd ..
+  300  ls
+  301  dpkg-buildpackage -us -uc
+  302  ls
+  303  cd ..
+  304  ls
+  305  dpkg -i bmon_2.0.1-3_i386.deb 
+  306  ls
+  307  cd CursoaslBarquisimeto/
+  308  ls
+  309  git pull
+  310  ls
+  311  cp python.txt /home/soporte/control/cursoasl/
+  312  cd .
+  313  ls
+  314  cd ..
+  315  ls
+  316  ls -la
+  317  cp bmon* cursoasl/
+  318  apt-get rsync
+  319  apt-get install rsync
+  320  time rsync -avh bmon* cursoasl/
+  321  ls -la cursoasl/
+  322  git add . cursoasl/
+  323  cd cursoasl/
+  324  git add .
+  325  git push
+  326  git commit -a
+  327  git push
+  328  cd
+  329  debmirror --host=http://us.debian.org --root=debian --cleanup --nosource --progress --ignore-release-gpg --arch=i386 --dist=stable --method=http --section=main,contrib,non-free /home/soporte/debian
+  330  debmirror --host=http.us.debian.org --root=debian --cleanup --nosource --progress --ignore-release-gpg --arch=i386 --dist=stable --method=http --section=main,contrib,non-free /home/soporte/debian
+  331  clear
+  332  la -la /home/soporte/debian/dists/wheezy/
+  333  la -la /home/soporte/debian/dists/wheezy
+  334  la -la /home/soporte/debian/dists/wheezy/
+  335  ls -la /home/soporte/debian/dists/wheezy/
+  336  clear
+  337  ln -s /home/soporte/debian/ /var/www/
+  338  aptitude install aptmirror
+  339  nano /etc/apt/sources.list
+  340  aptitude update
+  341  aptitude install aptmirror
+  342  aptitude install apt-mirror
+  343  aptitude install canaima-semilla
+  344  cd /home/soporte/control/CursoaslBarquisimeto/
+  345  git pull
+  346  cp -R actualizar.sh /home/soporte/control/cursoasl/
+  347  cd ..
+  348  cd cursoasl/
+  349  git add .
+  350  git commit -a
+  351  git push
+  352  exit
+  353  apt-get bmon
+  354  apt-get install bmon
+  355  bmon
+  356  nano /etc/bmon.conf 
+  357  cd /etc/
+  358  ls
+  359  cd ..
+  360  ls 
+  361  cd /home/soporte/
+  362  ls
+  363  cd control/
+  364  ls
+  365  updatedb
+  366  locate bmon
+  367  apt-source bmon
+  368  apt-get source bmon
+  369  ls
+  370  cd bmon-2.0.1/
+  371  ls
+  372  cd src/
+  373  ls
+  374  nano out_ascii.c 
+  375  cd ..
+  376  history 
+  377  cd ..
+  378  aptitude remove --purgebmon
+  379  aptitude remove --purge bmon
+  380  screen
+  381  exit
+  382  bmon
+  383  ls
+  384  cd unyweb/www.uny.edu.ve/correouny/
+  385  ls
+  386  cd google/
+  387  ls
+  388  cd ..
+  389  ls
+  390  cd
+  391  c-sgui
+  392  cs-gui
+  393  c-s-gui
+  394  screen
+  395  c-s-gui
+  396  ps aux
+  397  ps aux|grep gui
+  398  kill -9 15173
+  399  ps aux|grep gui
+  400  c-s-gui
+  401  ps aux|grep gui
+  402  kill -9 16801
+  403  c-s-gui
+  404  ps aux|grep gui
+  405  kill -9 18112
+  406  c-s contruir --medio="iso" --arquitectura="i386 --sabor="popular"
+  407  c-s contruir --medio="iso" --arquitectura="i386 --sabor="cursoasl"
+  408  c-s construir --medio="iso" --arquitectura="i386 --sabor="cursoasl"
+  409  c-s construir --medio="iso" --arquitectura="i386" --sabor="cursoasl"
+  410  cat /usr/share/canaima-semilla/isos/build.201406251522.log 
+  411  cd /usr/share/canaima-semilla/
+  412  ls
+  413  cd isos/
+  414  ls
+  415  ls
+  416  cd ..
+  417  cd profiles/
+  418  ls
+  419  cd cursoasl/
+  420  ls
+  421  nano profile.conf 
+  422  c-s construir --medio="iso" --arquitectura="i386" --sabor="cursoasl"
+  423  ls
+  424  nano profile.conf 
+  425  ls
+  426  cd IMG_INCLUDES/
+  427  ls
+  428  cd L
+  429  cd live/
+  430  ls
+  431  cd data/
+  432  ls
+  433  cd scripts/
+  434  ls
+  435  cd ..
+  436  cd ..
+  437  cd ..
+  438  ls
+  439  cd ..
+  440  ls
+  441  c-s construir --medio="iso" --arquitectura="i386" --sabor="cursoasl"
+  442  ls
+  443  pwd
+  444  time rsync -avh /usr/share/canaima-semilla/profiles/popular/profile.conf .
+  445  nano profile.conf 
+  446  c-s construir --medio="iso" --arquitectura="i386" --sabor="cursoasl"
+  447  crontab -e
+  448  reboot
+  449  aptitude shot imagemagick
+  450  aptitude search imagemagick
+  451  cd /usr/share/canaima-semilla/
+  452  ls
+  453  cd isos/
+  454  ls
+  455  cd ..
+  456  cd profiles/
+  457  ls
+  458  cp -R popular/ /home/soporte/control/cursoasl/
+  459  ls /home/soporte/control/cursoasl/
+  460  ls /home/soporte/control/cursoasl/popular/
+  461  mkdir cursoasl
+  462  cp -R popular/ cursoasl/
+  463  cd cursoasl/
+  464  ls
+  465  cd popular/
+  466  time rsync -avh * /usr/share/canaima-semilla/profiles/cursoasl/
+  467  cd ..
+  468  ls
+  469  rm -rf popular/+
+  470  rm -rf popular
+  471  ls
+  472  nano profile.conf 
+  473  ls
+  474  cd IMG_INCLUDES/
+  475  ls
+  476  cd live/
+  477  ls
+  478  cd config-hooks/
+  479  ls
+  480  cd ..
+  481  ls
+  482  cd config-hooks/
+  483  ls
+  484  nano 1050-copy-autostart 
+  485  cd ..
+  486  cd data/
+  487  ls
+  488  cd scripts/
+  489  ls
+  490  nano disabler.sh 
+  491  ls
+  492  cd ..
+  493  ls
+  494  cd autostart/
+  495  ls
+  496  nano disabler.desktop 
+  497  cd ..
+  498  ls
+  499  cd control
+  500  cd CursoaslBarquisimeto/
+  501  cd aguedo/
+  502  ls
+  503  nano
+  504  ls
+  505  nano
+  506  chmod 065 curso1.txt
+  507  ls -la
+  508  nano
+  509  chmod 726 curso2.txt
+  510  ls -la
+  511  nano
+  512  chmod 111 curso3.txt
+  513  ls -la
+  514  nano
+  515  chmod 227 curso4.txt
+  516  ls -la
+  517  nano
+  518  chmod 064 curso5.txt
+  519  ls -la
+  520  fdisk -l
+  521  ps aux |grep libre
+  522  kill -9 3407
+  523  ps aux |grep libre
+  524  kill -9 3428
+  525  mkdir openoffice-writer
+  526  nano 
+  527  cd openoffice-writer/
+  528  ls
+  529  nano
+  530  ls
+  531  cd ..
+  532  mkdir procesador
+  533  uname -a
+  534  cd procesador/
+  535  nano
+  536  cd ..
+  537  mkdir sl
+  538  cd sl
+  539  nano /etc/apt/sources.list
+  540  apt-get source sl
+  541  iwconfig
+  542  ls
+  543  cd sl-3.03/
+  544  ls
+  545  nano sl.h
+  546  ls
+  547  sl.h
+  548  sl.c
+  549  sl-h.c
+  550  ls
+  551  cd debian/
+  552  ls
+  553  cd ..
+  554  sl
+  555  ls
+  556  apt-get install sl
+  557  ls
+  558  sl
+  559  sl.c
+  560  sl.h
+  561  sl.txt
+  562  nano sl.txt
+  563  ls
+  564  ./sl.h
+  565  ./sl.c
+  566  nano sl.c
+  567  nano sl.h
+  568  cd..
+  569  cd ..
+  570  sl
+  571  cd ..
+  572  x11vnc -bg -gui
+  573  adduser
+  574  adduser usua1
+  575  nano 
+  576  ls
+  577  chown root:root permiso.txt
+  578  chown soporte:soporte permiso.txt
+  579  cd sl
+  580  ls
+  581  cd sl-3.03/
+  582  ls
+  583  dpkg-buildpackage -us -uc
+  584  ls
+  585  cd ..
+  586  ls
+  587  cd sl-3.03/
+  588  ls
+  589  cd ..
+  590  cd ..
+  591  mkdir canaima-semilla
+  592  ls
+  593  cd ..
+  594  ls
+  595  cd ..
+  596  ls
+  597  cd cursoasl
+  598  ls
+  599  cd popular
+  600  ls
+  601  cd ..
+  602  ls
+  603  cd popular
+  604  ls
+  605  nano profile.conf 
+  606  cd ..
+  607  ls
+  608  cd ..
+  609  cd CursoaslBarquisimeto/
+  610  ls
+  611  cd aguedo/
+  612  ls
+  613  cd sl
+  614  ls
+  615  cd ..
+  616  cd canaima-semilla/
+  617  ls
+  618  apt-get install canaima-semilla 
+  619  ls
+  620  ls /usr/share/
+  621  ls /usr/share/canaima-semilla/
+  622  cd /usr/share/canaima-semilla/
+  623  ls
+  624  cd profiles/
+  625  ls
+  626  cd primera-base/
+  627  ls
+  628  nano profile.conf 
+  629  cp profile.conf /home/soporte/control/CursoaslBarquisimeto/aguedo/canaima-semilla/
+  630  ls /home/soporte/control/CursoaslBarquisimeto/aguedo/canaima-semilla/
+  631  cd /home/soporte/control/CursoaslBarquisimeto/aguedo/canaima-semilla/
+  632  ls
+  633  nano profile.conf 
+  634  iwlist
+  635  nano 
+  636  ls
+  637  history

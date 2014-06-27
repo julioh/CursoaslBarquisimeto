@@ -1,0 +1,61 @@
+    2  touch curso1.txt && chmod 065 curso1.txt
+    3  touch curso2.txt && chmod 726 curso2.txt
+    4  touch curso3.txt && chmod 111 curso3.txt
+    5  touch curso4.txt && chmod 227 curso4.txt
+    6  touch curso5.txt && chmod 064 curso5.txt
+    7  ls -lia
+    8  fdisk -l
+    9  ps aux| grep writer > writer.txt
+   10  cat writer.txt 
+   11  kill -9 3432
+   12  ps aux| grep writer 
+   13  cat /proc/cpuinfo | grep "model name" > procesador.txt
+   14  cat procesador.txt 
+   15  dhclient eth0
+   16  mkdir sl && cd sl
+   17  apt-get source sl
+   18  nano /etc/apt/sources.list
+   19  apt-get update 
+   20  nano /etc/apt/sources.list
+   21  apt-get update 
+   22  apt-get source sl
+   23  ls
+   24  cd sl-3.03/
+   25  ls
+   26  cd debian/
+   27  ls
+   28  cd ..
+   29  ls
+   30  nano sl.h 
+   31  CD ..
+   32  cd ..
+   33  ls
+   34  sl
+   35  dpkg buildpackage -uc -us
+   36  cd sl-3.03/
+   37  dpkg buildpackage -uc -us
+   38  ls
+   39  cd ..
+   40  ls
+   41  dpkg -i sl_3.03-17_i386.deb 
+   42  sl
+   43  cd ..
+   44  iwlist scan
+   45  adduser usuario
+   46  passwd usuario 
+   47  mkdir canaima-semilla
+   48  cd canaima-semilla/
+   49  cp -r /usr/share/canaima-semilla/profiles/primera-base/ primera-base
+   50  ls
+   51  cd primera-base/
+   52  ls
+   53  cd ..
+   54  cp -r primera-base/ mmujica
+   55  cd mmujica/
+   56  ls
+   57  nano profile.conf 
+   58  cd ..
+   59  cd ..
+   60  ls
+   61  nano crear_iso.txt
+   62  history > history.txt

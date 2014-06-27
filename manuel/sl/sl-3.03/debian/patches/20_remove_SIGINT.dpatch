@@ -1,0 +1,18 @@
+#! /bin/sh /usr/share/dpatch/dpatch-run
+## 20_remove_SIGINT.dpatch by Hiroyuki Yamamoto <yama1066@gmail.com>
+##
+## All lines beginning with `## DP:' are a description of the patch.
+## DP: remove SIGINT.
+
+@DPATCH@
+diff -urNad sl-3.03~/sl.c sl-3.03/sl.c
+--- sl-3.03~/sl.c	1998-07-22 23:01:01.000000000 +0900
++++ sl-3.03/sl.c	2008-12-27 20:01:46.000000000 +0900
+@@ -69,7 +69,6 @@
+ 	}
+     }
+     initscr();
+-    signal(SIGINT, SIG_IGN);
+     noecho();
+     leaveok(stdscr, TRUE);
+     scrollok(stdscr, FALSE);

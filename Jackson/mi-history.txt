@@ -1,0 +1,500 @@
+   86  ps -aux |grep canaima-semilla
+   87  ps -aux |grep canaima-semilla
+   88  c-s- construir --medio="iso" --arquitectura="i386" --sabor="popular"
+   89  c-s-construir --medio="iso" --arquitectura="i386" --sabor="popular"
+   90  c-s construir --medio="iso" --arquitectura="i386" --sabor="curso-asl"
+   91  history >> /home/soporte/history4.txt
+   92  nano /etc/apt/sources.list
+   93  dpkg -l
+   94  dpkg -l>>instalados.txt
+   95  aptitude search canaima-semilla
+   96  aptitude show canaima-semilla
+   97  apt-get source sl
+   98  apt-get update
+   99  apt-get source sl
+  100  ls
+  101  cd sl-3.03/
+  102  ls
+  103  nano sl.c
+  104  nano sl.h
+  105  dpkg-buildpackage -us -UC
+  106  dpkg-buildpackage -us -uc
+  107  apt-get install libncurses5-dev
+  108  dpkg-buildpackage -us -uc
+  109  apt-get install debhelper 
+  110  dpkg-buildpackage -us -uc
+  111  apt-get install cdbs
+  112  dpkg-buildpackage -us -uc
+  113  dpkg-source --commit
+  114  dpkg-buildpackage -us -uc
+  115  ls
+  116  cd ..
+  117  ls
+  118  apt-get remove --purgue sl
+  119  apt-get remove --purge sl
+  120  dpkg -i sl_3.03-17_i386.deb 
+  121  apt-get remove --purge sl
+  122  mv sl_3.03-17_i386.deb sl_3.03-17_i3862222.deb
+  123  cd sl-3.03/
+  124  dpkg-buildpackage -us -uc
+  125  dpkg-source --commit
+  126  dpkg-buildpackage -us -uc
+  127  ls
+  128  nano sl.h
+  129  updatedb
+  130  apt-get install updatedb
+  131  apt-get install updatedb
+  132  apt-get install nssupdatedb
+  133  apt-get install nssupdate
+  134  apt-get install nss-updatedb
+  135  apt-get install locate
+  136  updatedb
+  137  locate -name sl
+  138  locate sl
+  139  ls
+  140  cd ..
+  141  locate -c sl
+  142  locate sl
+  143  locate sl .
+  144  locate sl.
+  145  locate sl.c
+  146  locate *.c
+  147  locate /home/soporte/control/*.c
+  148  cd ../
+  149  cd ..
+  150  cd .
+  151  cd ..
+  152  mkdir yaya
+  153  cd yaya
+  154  git clone https://github.com/julioh/CursoaslBarquisimeto.git
+  155  ls
+  156  cd CursoaslBarquisimeto/
+  157  ls
+  158  nano README.md 
+  159  git add .
+  160  git push
+  161  git commit -a
+  162  git push
+  163  cd ..
+  164  git clone https://github.com/julioh/CursoaslBarquisimeto.git
+  165  rm -r CursoaslBarquisimeto/
+  166  git clone https://github.com/julioh/CursoaslBarquisimeto.git
+  167  cd CursoaslBarquisimeto/
+  168  nano README.md 
+  169  git commit -a
+  170  git push
+  171  cd ..
+  172  rm -r
+  173  rm -r CursoaslBarquisimeto/
+  174  git clone https://github.com/julioh/CursoaslBarquisimeto.git
+  175  cd CursoaslBarquisimeto/
+  176  nano README.md 
+  177  git commit -a
+  178  git push
+  179  cd ..
+  180  rm -r CursoaslBarquisimeto/
+  181  git clone https://github.com/julioh/CursoaslBarquisimeto.git
+  182  cd CursoaslBarquisimeto/
+  183  ls
+  184  nano README.md 
+  185  git commit -a
+  186  git push
+  187  cd ..
+  188  rm -r CursoaslBarquisimeto/
+  189  ls
+  190  git clone https://github.com/julioh/CursoaslBarquisimeto.git
+  191  cd CursoaslBarquisimeto/
+  192  nano README.md 
+  193  git commit -a
+  194  git push
+  195  cd ../
+  196  rm -r CursoaslBarquisimeto/
+  197  git clone https://github.com/julioh/CursoaslBarquisimeto.git
+  198  ls
+  199  cd CursoaslBarquisimeto/
+  200  git pool
+  201  git pull
+  202  nano README.md 
+  203  git commit -a
+  204  git push
+  205  git push
+  206  cd ..
+  207  ls
+  208  cd CursoaslBarquisimeto/
+  209  git pull
+  210  git commit -a
+  211  cd ..
+  212  rm -r
+  213  ls
+  214  rm -r CursoaslBarquisimeto/
+  215  ls
+  216  git clone https://github.com/julioh/CursoaslBarquisimeto.git
+  217  cd CursoaslBarquisimeto/
+  218  ls
+  219  nano README.md 
+  220  git commit -a
+  221  git push
+  222  cd ../
+  223  rm -r CursoaslBarquisimeto/
+  224  git clone https://github.com/julioh/CursoaslBarquisimeto.git
+  225  cd CursoaslBarquisimeto/
+  226  nano README.md 
+  227  git commit -a
+  228  git push
+  229  cd ../
+  230  rm -r CursoaslBarquisimeto/
+  231  git clone https://github.com/julioh/CursoaslBarquisimeto.git
+  232  cd CursoaslBarquisimeto/
+  233  git pull
+  234  nano README.md 
+  235  git commit -a
+  236  git push
+  237  git pull
+  238  git commit -a
+  239  git push 
+  240  git pull
+  241  nano README.md 
+  242  git push 
+  243  cd ../
+  244  rm -r CursoaslBarquisimeto/
+  245  git clone https://github.com/julioh/CursoaslBarquisimeto.git
+  246  cd CursoaslBarquisimeto/
+  247  ls
+  248  nano README.md 
+  249  git commit -a
+  250  git push
+  251  git pull
+  252  git commit -a
+  253  git push 
+  254  ls
+  255  nano practica.txt 
+  256  ls
+  257  git add Practica_Jackson.txt
+  258  git commit 
+  259  git commit -a
+  260  git push
+  261  git pull
+  262  ls
+  263  git add Practica_Jackson.txt
+  264  git commit -a
+  265  git push
+  266  mv Jackson.txt ..
+  267  nano practica.txt 
+  268  bmon
+  269  bmon
+  270  history 
+  271  cd /home/soporte/Plantillas/
+  272  wget -r www.fundacite-lara.gob.ve
+  273  nano mirror.sh
+  274  ./mirror.sh
+  275  ls -al
+  276  chmod 755 mirror.sh 
+  277  ./mirror.sh 
+  278  nano mirror.sh
+  279  ./mirror.sh 
+  280  ls
+  281  nano 
+  282  nano mirror.sh
+  283  debmirror --host=htt.us.debian.org --root=debian --cleanup --nosource --progress --ignore-release-gpg ----arch=i386 --dist=stable --method=http --section=main,contrib,non-free /home/soporte/Plantillas/debian
+  284  debmirror --host=htt.us.debian.org --root=debian --cleanup --nosource --progress --ignore-release-gpg --arch=i386 --dist=stable --method=http --section=main,contrib,non-free /home/soporte/Plantillas/debian
+  285  apt-get install apache2
+  286  debmirror --host=htt.us.debian.org --root=debian --cleanup --nosource --progress --ignore-release-gpg --arch=i386 --dist=stable --method=http --section=main,contrib,non-free /home/soporte/Plantillas/debian
+  287  ls
+  288  cd debian/
+  289  ls
+  290  ln -s /home/soporte/Plantillas/debian/ /var/www/
+  291  nano /etc/resolv.conf 
+  292  nano /etc/apt/sources.list
+  293  apt-get update 
+  294  debmirror --host=htt.us.debian.org --root=debian --cleanup --nosource --progress --ignore-release-gpg --arch=i386 --dist=stable --method=http --section=main,contrib,non-free /home/soporte/Plantillas/debian
+  295  debmirror --host=http.us.debian.org --root=debian --cleanup --nosource --progress --ignore-release-gpg --arch=i386 --dist=stable --method=http --section=main,contrib,non-free /home/soporte/Plantillas/debian
+  296  clear
+  297  ifconfig
+  298  apt-get install xtightvncviewer 
+  299  history >> /home/soporte/history3.txt
+  300  lb binary
+  301  ls
+  302  ls -al
+  303  chroot chroot
+  304  exit
+  305  cd /home/
+  306  cd soporte/
+  307  ls
+  308  tar xvfz xz-5.0.5.tar.gz 
+  309  cd xz-5.0.5/
+  310  ls
+  311  ./configure
+  312  make
+  313  make install
+  314  cd ../Descargas/
+  315  ls
+  316  cd ..
+  317  tar Jxvf linux-3.15.2.tar.xz 
+  318  cd linux-3.15.2/
+  319  ls
+  320  apt-get install libncurses5-dev 
+  321  cd ..
+  322  mv linux-3.15.2/ /usr/src/
+  323  cd /usr/src/linux-3.15.2/
+  324  apt-get install libncursesw5
+  325  apt-get install libncursesw5-dev 
+  326  apt-get install libncursesw5-dbg 
+  327  ls
+  328  nano CREDITS 
+  329  cd ../
+  330  wget http://192.168.10.101/linux.tar
+  331  tar xvf linux.tar 
+  332  cd linux-3.15.2/
+  333  ls
+  334  make menuconfig fig
+  335  make
+  336  history >> history8.txt
+  337  exit
+  338  history
+  339  free
+  340  free -h
+  341  cd /usr/share/canaima-semilla/profiles/curso-asl/
+  342  ls
+  343  cd ../
+  344  ls
+  345  cd ..
+  346  ls
+  347  cd isos/
+  348  ls
+  349  ls -al
+  350  tar cvf control.tar .build/
+  351  cd .build/
+  352  ls
+  353  nano config 
+  354  cd ../chroot/
+  355  ls
+  356  ls -al
+  357  cd .build/
+  358  ls
+  359  cd ..
+  360  tar cvf control.tar .build/
+  361  cp control.tar /var/www/
+  362  ps -aux |grep chrome
+  363  kill -9 20731 20734 20735 20753
+  364  ps -aux |grep chrome
+  365  kill -9 20931 20949 22275 22851 25034
+  366  ps -aux |grep chrome
+  367  ps -aux |grep chrome
+  368  kill -9 20722 20729
+  369  ps -aux |grep chrome
+  370  kill -9 22891
+  371  ps -aux |grep chrome
+  372  ps -aux |grep chrome
+  373  ps -aux |grep chrome
+  374  ps -aux |grep chrome
+  375  free -h
+  376  top
+  377  cd /home/
+  378  mkdir distri
+  379  cd distri/
+  380  nano config.sh
+  381  ls -l
+  382  chmod 755 config.sh 
+  383  ./config.sh 
+  384  ls
+  385  lb build
+  386  lb binary_iso
+  387  ls
+  388  du -h binary.iso
+  389  nano /etc/apt/sources.list
+  390  apt-get update
+  391  synaptic
+  392  aptitude search quemu-
+  393  aptitude install quemu-
+  394  aptitude install qemu-
+  395  aptitude install qemu -
+  396  cd ..
+  397  mkdir emulacion
+  398  cd emulacion/
+  399  cp ../distri/binary.iso .
+  400  ls
+  401  qemu-img create binary.iso 2G
+  402  ls
+  403  qemu-img create mi-imagen.iso 2G
+  404  ls
+  405  du -h
+  406  rm binary.iso 
+  407  cp ../distri/binary.iso .
+  408  du -h
+  409  du -h mi-imagen.iso 
+  410  qemu -hda mi-imagen.iso -cdrom binary.iso -boot t d -m 512
+  411  qemu -hda mi-imagen.iso -cdrom binary.iso -boot d -m 512
+  412  cd ../distri/
+  413  ls
+  414  chroot chroot
+  415  chroot chroot
+  416  lb build
+  417  ls
+  418  ls -call
+  419  du -h
+  420  du -h binary
+  421  ls -call
+  422  lb binary_iso
+  423  ls -call
+  424  lb binary
+  425  ls -call
+  426  mkdir otraprueba
+  427  cp config.sh otraprueba/
+  428  cd otraprueba/
+  429  ls
+  430  ./config.sh 
+  431  ls
+  432  lb boostrap
+  433  lb bootstrap
+  434  ls
+  435  lb chroot
+  436  ls
+  437  apt-get install debian-installer
+  438  chroot chroot
+  439  lb binary
+  440  ls
+  441  cp binary.iso ../../emulacion/
+  442  cd ..
+  443  mkdir otraprueba2/
+  444  cp config.sh otraprueba2/
+  445  cd otraprueba2/
+  446  ./config.sh 
+  447  ls
+  448  lb build
+  449  chroot chroot
+  450  ls
+  451  lb bootstrap
+  452  lb binary
+  453  ls -call
+  454  lb chroot
+  455  cd chroot/
+  456  ls
+  457  lb binary
+  458  cd ..
+  459  ls
+  460  lb bootstrap
+  461  lb binary
+  462  history >> history8.txt
+  463  exit
+  464  ls
+  465  rm -r carpeta/
+  466  rm index.html 
+  467  ls
+  468  tar xvf carpeta.tar 
+  469  nano carpeta/config/bootstrap 
+  470  lb build
+  471  ls
+  472  lb binary
+  473  ls
+  474  cd binary/live/
+  475  ls
+  476  cd ../../
+  477  ls
+  478  lb binary_iso
+  479  nano /etc/apt/sources.list
+  480  cd ../
+  481  ls -call
+  482  cd distro/
+  483  ls
+  484  cd ..
+  485  ls
+  486  cd sporte/
+  487  ls
+  488  cd ..
+  489  cd ../emulacion/
+  490  ls
+  491  mv binary.iso binary2.iso 
+  492  du -h
+  493  du -h binary.iso 
+  494  du -h binary2.iso 
+  495  qemu -hda mi-imagen.iso -cdrom binary.iso 512
+  496  qemu -hda mi-imagen.iso -cdrom binary.iso -boot d -m 512
+  497  history >> history7.txt
+  498  exit
+  499  exit
+  500  cd control/ASL/CursoaslBarquisimeto/Jackson/
+  501  nano procesador/procesador.txt 
+  502  nano /etc/network/interfaces 
+  503  ls
+  504  mkdir sl
+  505  ls
+  506  apt-get source sl
+  507  nano /etc/apt/sources.list
+  508  apt-get update 
+  509  iwconfig
+  510  iwconfig wlan0
+  511  lspci
+  512  lspci | grep Wireless
+  513  iwlist scan
+  514  apt-get source sl
+  515  ls
+  516  cd sl-3.03/
+  517  ls
+  518  nano sl.h 
+  519  nano sl.h 
+  520  dpkg-buildpackage -us -uc
+  521  cd ..
+  522  ls
+  523  cd sl
+  524  cd ..
+  525  cd sl-3.03/ sl
+  526  cd ..
+  527  ls
+  528  mv sl-3.03/ sl
+  529  mv sl_3.03-17.debian.tar.gz sl
+  530  mv sl_3.03-17.dsc sl
+  531  mv sl_3.03.orig.tar.gz sl
+  532  ls
+  533  sl
+  534  nano /etc/apt/sources.list
+  535  ping 192.168.10.77
+  536  cd sl/
+  537  ls
+  538  cd sl-3.03/
+  539  ls
+  540  nano sl.h
+  541  dpkg-buildpackage -us -uc
+  542  commit
+  543  commit -a
+  544  dpkg-buildpackage -us -uc
+  545  dpkg-source --commit
+  546  dpkg-buildpackage -us -uc
+  547  cd ..
+  548  ls
+  549  sl
+  550  dpkg -i sl_3.03-17_i386.deb 
+  551  sl
+  552  dpkg remove --purge
+  553  dpkg remove --purge sl
+  554  apt-get remove --purge sl
+  555  dpkg -i sl_3.03-17_i386.deb 
+  556  x11vnc
+  557  aptitude search x11vnc
+  558  aptitude search xtightvnc
+  559  aptitude search vnc
+  560  synaptic
+  561  ifconfig
+  562  x11vnc
+  563  cd ..
+  564  mkdir canaima-semilla
+  565  cd canaima-semilla/
+  566  ls
+  567  cp -r /usr/share/canaima-semilla/profiles/primera-base/ .
+  568  ls
+  569  ls -a
+  570  ls -l
+  571  cd primera-base/
+  572  ls
+  573  cd ..
+  574  ls
+  575  mv primera-base/ jackson/
+  576  ls
+  577  cd jackson/
+  578  ls
+  579  nano profile.conf 
+  580  nano creacioniso.txt
+  581  nano creacioniso.txt
+  582  nano /etc/apt/sources.list
+  583  ls
+  584  cd ../../
+  585  history >> mi-history.txt

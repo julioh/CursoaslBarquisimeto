@@ -1,0 +1,415 @@
+  138  ls
+  139  cd /home/soporte
+  140  crontab -e
+  141  cd /var/www/respaldo/
+  142  ls
+  143  ls -la
+  144  cd /home/soporte
+  145  ls
+  146  crontab -e
+  147  nano rrespaldar.sh 
+  148  /etc/init.d/cron start
+  149  /etc/init.d/cron stop
+  150  /etc/init.d/cron start
+  151  cd /var/www/respaldo/
+  152  ls
+  153  ls
+  154  ls -la
+  155  cd /home/soporte
+  156  nano rrespaldar.sh 
+  157  /etc/init.d/cron restart
+  158  /cd
+  159  cd /var/www/respaldo
+  160  ls
+  161  cd /home/soporte
+  162  nano rrespaldar.sh 
+  163  /etc/init.d/cron restart
+  164  cd /var/www/respaldo
+  165  ls
+  166  cd /home/soporte
+  167  nano rrespaldar.sh 
+  168  /etc/init.d/cron restart
+  169  cd /var/www/respaldo
+  170  ls
+  171  ls
+  172  ls -la
+  173  clear
+  174  ls
+  175  cd /home/soporte
+  176  nano rrespaldar.sh 
+  177  ./rrespaldar.sh 
+  178  cd /var/www/respaldo
+  179  /etc/init.d/cron restart
+  180  ls
+  181  ls
+  182  nano rrespaldar.sh 
+  183  ls -la
+  184  ls -la
+  185  ls -la
+  186  ls -la
+  187  ls -la
+  188  ls -la
+  189  /etc/init.d/cron restart
+  190  ls -la
+  191  cd /home/soporte
+  192  ls
+  193  ./rrespaldar.sh 
+  194  cd /var/www/respaldo
+  195  ls
+  196  ls -la
+  197  crontab -e
+  198  /etc/init.d/cron restart
+  199  ls -la
+  200  ls -la
+  201  ls -la
+  202  crontab -e
+  203  crontab -e
+  204  ls -la
+  205  ls -la
+  206  cd /home/soporte
+  207  nano rrespaldar.sh 
+  208  ./rrespaldar.sh 
+  209  cd /var/www/respaldo
+  210  ls -la
+  211  cd /home/soporte
+  212  pw
+  213  crontab -e
+  214  /etc/init.d/cron restart
+  215  ls /var/www/respaldo
+  216  ls -la /var/www/respaldo
+  217  ls
+  218  cd CursoaslBarquisimeto/
+  219  ls
+  220  cd ..
+  221  ls
+  222  cd cursoasl
+  223  git clone https://github.com/grperez/cursoasl.git
+  224  c-s-gui
+  225  ls
+  226  cp rrespaldar.sh cursoasl/
+  227  cd cursoasl
+  228  git add rrespaldar.sh
+  229  git commit -a
+  230  git pull
+  231  git push
+  232  ls
+  233  cd ..
+  234  ls
+  235  cp c? cursoasl/
+  236  cd cursoasl/
+  237  ls..
+  238  cd ..
+  239  cp -R c? cursoasl/
+  240  cd cursoasl/
+  241  ls
+  242  git add c1
+  243  git add c.
+  244  git add .
+  245  git commit -a
+  246  git pull
+  247  git push
+  248  ls
+  249  git add c1
+  250  git commit -m "subiendo C1"
+  251  git pull
+  252  git push
+  253  git add c1
+  254  git commit -a
+  255  git pull
+  256  git push
+  257  git add c1
+  258  git push
+  259  ls
+  260  git add c2
+  261  git commit -a
+  262  git pull
+  263  git push
+  264  git push
+  265  cd ..
+  266  ls
+  267  cd cursoasl/
+  268  git status
+  269  ls
+  270  cd ..
+  271  cp bmon_2.0.1.orig.tar.gz cursoasl/
+  272  cd cursoasl/
+  273  git add bmon_2.0.1.orig.tar.gz
+  274  git commit -a
+  275  git pull
+  276  git push
+  277  git add c1
+  278  git commit -a
+  279  ls
+  280  rm -r c1
+  281  ls
+  282  rm -r c2
+  283  rm -r c3
+  284  rm -r c4
+  285  rm -r c5
+  286  cd ..
+  287  cp c1 cursoasl/
+  288  mv c1 cursoasl/
+  289  cd cursoasl/
+  290  git add c1
+  291  git commit -a
+  292  ls
+  293  cd ..
+  294  ls
+  295  ls -la
+  296  ls -la less
+  297  ls -la 
+  298  cd cursoasl/
+  299  ls
+  300  git add .
+  301  git commit -a
+  302  git pull
+  303  git push
+  304  ls
+  305  rm c1
+  306  rm -r c1
+  307  ls
+  308  nano c1
+  309  ls
+  310  nano c2
+  311  nano c3
+  312  nano c4
+  313  nano c5
+  314  ls
+  315  git add .
+  316  git commit -a
+  317  git pull
+  318  git push
+  319  cd ..
+  320  ls
+  321  ls -la 
+  322  cd distro
+  323  ls
+  324  tar -xvf carpeta.tar 
+  325  ls
+  326  cd carpeta
+  327  ls
+  328  cd config
+  329  ls
+  330  nano bootstrap 
+  331  cp bootstrap bootstrap.viejo
+  332  nano bootstrap 
+  333  ls
+  334  cd ..
+  335  ls
+  336  cd chroot/
+  337  ls
+  338  chroot chroot
+  339  cd ..
+  340  chroot chroot
+  341  chroot chroot/
+  342  lb binary_iso
+  343  exit
+  344  ls
+  345  chroot chroot/
+  346  chroot chroot/
+  347  ls
+  348  cd distro
+  349  lb binary
+  350  ls
+  351  cd..
+  352  cd ..
+  353  ls
+  354  lb binary
+  355  ls -la
+  356  wget http://192.168.10.91/control.tar
+  357  ls
+  358  cd control
+  359  ls
+  360  cd ..
+  361  ls -la
+  362  tar -xvf .control.tar
+  363  tar -xvf control.tar
+  364  lb binary
+  365  ls}
+  366  ls
+  367  rm -r binary
+  368  rm -r chroot
+  369  rm -r control.tar
+  370  rm -r imagen.tar 
+  371  cd distro/
+  372  ls
+  373  history
+  374  wget http://192.168.10.96/carpeta.tar
+  375  lb binary
+  376  c-s-gui
+  377  cd /usr/share//canaima-semilla/profile
+  378  cd /usr/share/canaima-semilla/profile
+  379  cd  /usr/share/
+  380  ls
+  381  cd canaima-semilla/
+  382  ls
+  383  cd profiles
+  384  ls
+  385  cd cursoasl/
+  386  ls
+  387  nano profile.conf 
+  388  aptitude instal x11vnc
+  389  aptitude install x11vnc
+  390  cd /home/soporte
+  391  x11vnc
+  392  x11vnc -bg -gui
+  393  clear
+  394  ifconfig
+  395  aptitude install xtightvncviewer 
+  396  ls
+  397  cd cursoasl
+  398  ls
+  399  cd ..
+  400  aptitude install nmap
+  401  nmat -A -T4 192.168.10.93
+  402  nmap -A -T4 192.168.10.93
+  403  nmap -A -T4 192.168.10.95
+  404  clear
+  405  nmap -A -T4 192.168.10.93
+  406  aptitude install ssh
+  407  nano /etc/ssh/ssh_config 
+  408  nano /etc/ssh/sshd_config 
+  409  /etc/inid.d/nmap stop
+  410  nmap stop
+  411  nmap 192.168.10.93
+  412  clear
+  413  nmap 192.168.10.93
+  414  nmap -A 192.168.10.93
+  415  cat /etc/services 
+  416  cd cursoasl
+  417  cd /usr/share/canaima-semilla
+  418  ls
+  419  cd profiles
+  420  cd cursoasl/
+  421  ls
+  422  nano profile.conf 
+  423  nano profile.conf 
+  424  c-s-gui
+  425  c -s -gui
+  426  c-s-gui
+  427  c-s construir --medio="iso" --arquitectura="i386" --sabor="cursoasl"
+  428  c-s construir --medio="iso" --arquitectura="i386" --sabor="cursoasl"
+  429  cd ..
+  430  ls
+  431  cd ..
+  432  ls
+  433  cd isos
+  434  ls
+  435  ls chroot/
+  436  cd chroot
+  437  ls
+  438  cd ..
+  439  c-s construir --medio="iso" --arquitectura="i386" --sabor="cursoasl"
+  440  nano resultado
+  441  cd chroot
+  442  ls
+  443  cd ..
+  444  cd ..
+  445  ls
+  446  cd profiles
+  447  ls
+  448  cd cursoasl
+  449  ls
+  450  nano profile.conf 
+  451  cd ..
+  452  ls
+  453  cd ..
+  454  cd iso
+  455  ls
+  456  cd isos
+  457  ls
+  458  nano resultado 
+  459  nano resultado 
+  460  nano resultado 
+  461  cd ..
+  462  ls
+  463  mkdir distro
+  464  cd distro
+  465  itecture=i386 --linux-flavours=686-pae 486 --distribution=stable --mode=debian --apt=aptitude --apt-recommends=false --apt-secure=false --bootloader=syslinux --bootstrap=debootstrap --binary-images=iso --archive-areas=main contrib non-free --mirror-bootstrap=http://192.168.10.77/debian --mirror-chroot=http://192.168.10.77/debian --mirror-chroot-security=none --mirror-chroot-backports=none --mirror-binary=http://192.168.10.77/debian --mirror-binary-security=none --mirror-binary-backports=none --mirror-debian-installer=http://192.168.10.77/debian --security=false --backports=false --source=false --iso-volume=cursoasl --iso-publisher=RonaldCaruci --iso-application=canaima-cursoasl --debian-installer=false --win32-loader=false --memtest=none --bootappend-live=boot=live live-config live-config.timezone=America/Caracas live-config.locales=es_VE.UTF-8 live-config.hostname=canaima-cursoasl live-config.username=fenix live-config.user-fullname=fenix live-config.keyboard-layouts=latam live-config.keyboard-model=pc105 live-config.hooks=medium quiet splash vga=791 --parent-mirror-bootstrap=http://192.168.10.77/debian --parent-distribution=stable --parent-archive-areas=main contrib non-free --parent-debian-installer-distribution=stable --parent-mirror-debian-installer=http://192.168.10.77/debian --parent-mirror-debian-installer=http://192.168.10.77/debian --parent-mirror-chroot=http://192.168.10.77/debian --parent-mirror-chroot-security=none --parent-mirror-chroot-updates=none --parent-mirror-chroot-backports=none --parent-mirror-binary=http://192.168.10.77/debian --parent-mirror-binary-security=none --parent-mirror-binary-updates=none --parent-mirror-binary-backports=none --mirror-chroot-updates=none --mirror-binary-updates=none --updates=false --apt-indices=none --cache-indices=false --apt-source-archives=false --system=live --firmware-binary=false --firmware-chroot=false
+  466  itecture=i386 --linux-flavours=686-pae 486 --distribution=stable --mode=debian --apt=aptitude --apt-recommends=false --apt-secure=false --bootloader=syslinux --bootstrap=debootstrap --binary-images=iso --archive-areas=main contrib non-free --mirror-bootstrap=http://192.168.10.77/debian --mirror-chroot=http://192.168.10.77/debian --mirror-chroot-security=none --mirror-chroot-backports=none --mirror-binary=http://192.168.10.77/debian --mirror-binary-security=none --mirror-binary-backports=none --mirror-debian-installer=http://192.168.10.77/debian --security=false --backports=false --source=false --iso-volume=cursoasl --iso-publisher=RonaldCaruci --iso-application=canaima-cursoasl --debian-installer=false --win32-loader=false --memtest=none --bootappend-live=boot=live live-config live-config.timezone=America/Caracas live-config.locales=es_VE.UTF-8 live-config.hostname=canaima-cursoasl live-config.username=fenix live-config.user-fullname=fenix live-config.keyboard-layouts=latam live-config.keyboard-model=pc105 live-config.hooks=medium quiet splash vga=791 --parent-mirror-bootstrap=http://192.168.10.77/debian --parent-distribution=stable --parent-archive-areas=main contrib non-free --parent-debian-installer-distribution=stable --parent-mirror-debian-installer=http://192.168.10.77/debian --parent-mirror-debian-installer=http://192.168.10.77/debian --parent-mirror-chroot=http://192.168.10.77/debian --parent-mirror-chroot-security=none --parent-mirror-chroot-updates=none --parent-mirror-chroot-backports=none --parent-mirror-binary=http://192.168.10.77/debian --parent-mirror-binary-security=none --parent-mirror-binary-updates=none --parent-mirror-binary-backports=none --mirror-chroot-updates=none --mirror-binary-updates=none --updates=false --apt-indices=none --cache-indices=false --apt-source-archives=false --system=live --firmware-binary=false --firmware-chroot=false
+  467  itecture=i386 --linux-flavours=686-pae 486 --distribution=stable --mode=debian --apt=aptitude --apt-recommends=false --apt-secure=false --bootloader=syslinux --bootstrap=debootstrap --binary-images=iso --archive-areas=main contrib non-free --mirror-bootstrap=http://192.168.10.77/debian --mirror-chroot=http://192.168.10.77/debian --mirror-chroot-security=none --mirror-chroot-backports=none --mirror-binary=http://192.168.10.77/debian --mirror-binary-security=none --mirror-binary-backports=none --mirror-debian-installer=http://192.168.10.77/debian --security=false --backports=false --source=false --iso-volume=cursoasl --iso-publisher=RonaldCaruci --iso-application=canaima-cursoasl --debian-installer=false --win32-loader=false --memtest=none --bootappend-live=boot=live live-config live-config.timezone=America/Caracas live-config.locales=es_VE.UTF-8 live-config.hostname=canaima-cursoasl live-config.username=fenix live-config.user-fullname=fenix live-config.keyboard-layouts=latam live-config.keyboard-model=pc105 live-config.hooks=medium quiet splash vga=791 --parent-mirror-bootstrap=http://192.168.10.77/debian --parent-distribution=stable --parent-archive-areas=main contrib non-free --parent-debian-installer-distribution=stable --parent-mirror-debian-installer=http://192.168.10.77/debian --parent-mirror-debian-installer=http://192.168.10.77/debian --parent-mirror-chroot=http://192.168.10.77/debian --parent-mirror-chroot-security=none --parent-mirror-chroot-updates=none --parent-mirror-chroot-backports=none --parent-mirror-binary=http://192.168.10.77/debian --parent-mirror-binary-security=none --parent-mirror-binary-updates=none --parent-mirror-binary-backports=none --mirror-chroot-updates=none --mirror-binary-updates=none --updates=false --apt-indices=none --cache-indices=false --apt-source-archives=false --system=live --firmware-binary=false --firmware-chroot=false
+  468  lb config --architecture=i386 --linux-flavours=686-pae 486 --distribution=stable --mode=debian --apt=aptitude --apt-recommends=false --apt-secure=false --bootloader=syslinux --bootstrap=debootstrap --binary-images=iso --archive-areas=main contrib non-free --mirror-bootstrap=http://192.168.10.77/debian --mirror-chroot=http://192.168.10.77/debian --mirror-chroot-security=none --mirror-chroot-backports=none --mirror-binary=http://192.168.10.77/debian --mirror-binary-security=none --mirror-binary-backports=none --mirror-debian-installer=http://192.168.10.77/debian --security=false --backports=false --source=false --iso-volume=cursoasl --iso-publisher=RonaldCaruci --iso-application=canaima-cursoasl --debian-installer=false --win32-loader=false --memtest=none --bootappend-live=boot=live live-config live-config.timezone=America/Caracas live-config.locales=es_VE.UTF-8 live-config.hostname=canaima-cursoasl live-config.username=fenix live-config.user-fullname=fenix live-config.keyboard-layouts=latam live-config.keyboard-model=pc105 live-config.hooks=medium quiet splash vga=791 --parent-mirror-bootstrap=http://192.168.10.77/debian --parent-distribution=stable --parent-archive-areas=main contrib non-free --parent-debian-installer-distribution=stable --parent-mirror-debian-installer=http://192.168.10.77/debian --parent-mirror-debian-installer=http://192.168.10.77/debian --parent-mirror-chroot=http://192.168.10.77/debian --parent-mirror-chroot-security=none --parent-mirror-chroot-updates=none --parent-mirror-chroot-backports=none --parent-mirror-binary=http://192.168.10.77/debian --parent-mirror-binary-security=none --parent-mirror-binary-updates=none --parent-mirror-binary-backports=none --mirror-chroot-updates=none --mirror-binary-updates=none --updates=false --apt-indices=none --cache-indices=false --apt-source-archives=false --system=live --firmware-binary=false --firmware-chroot=false
+  469  ls
+  470  lb buil
+  471  lb build
+  472  cd ..
+  473  nano archivo.sh
+  474  nano archivo.sh
+  475  cd distro
+  476  ls
+  477  cd config
+  478  ls
+  479  nano bootstrap 
+  480  nano bootstrap 
+  481  cd .,.
+  482  cd ..
+  483  ls
+  484  cd ..
+  485  ls
+  486  ./archivo.sh
+  487  nano archivo.sh
+  488  cd distro
+  489  ls
+  490  itecture=i386 --linux-flavours=686-pae 486 --distribution=stable --mode=debian --apt=aptitude --apt-recommends=false --apt-secure=false --bootloader=syslinux --bootstrap=debootstrap --binary-images=iso --archive-areas=main contrib non-free --mirror-bootstrap=http://192.168.10.77/debian --mirror-chroot=http://192.168.10.77/debian --mirror-chroot-security=none --mirror-chroot-backports=none --mirror-binary=http://192.168.10.77/debian --mirror-binary-security=none --mirror-binary-backports=none --mirror-debian-installer=http://192.168.10.77/debian --security=false --backports=false --source=false --iso-volume=cursoasl --iso-publisher=RonaldCaruci --iso-application=canaima-cursoasl --debian-installer=false --win32-loader=false --memtest=none --bootappend-live=boot=live live-config live-config.timezone=America/Caracas live-config.locales=es_VE.UTF-8 live-config.hostname=canaima-cursoasl live-config.username=fenix live-config.user-fullname=fenix live-config.keyboard-layouts=latam live-config.keyboard-model=pc105 live-config.hooks=medium quiet splash vga=791 --parent-mirror-bootstrap=http://192.168.10.77/debian --parent-distribution=stable --parent-archive-areas=main contrib non-free --parent-debian-installer-distribution=stable --parent-mirror-debian-installer=http://192.168.10.77/debian --parent-mirror-debian-installer=http://192.168.10.77/debian --parent-mirror-chroot=http://192.168.10.77/debian --parent-mirror-chroot-security=none --parent-mirror-chroot-updates=none --parent-mirror-chroot-backports=none --parent-mirror-binary=http://192.168.10.77/debian --parent-mirror-binary-security=none --parent-mirror-binary-updates=none --parent-mirror-binary-backports=none --mirror-chroot-updates=none --mirror-binary-updates=none --updates=false --apt-indices=none --cache-indices=false --apt-source-archives=false --system=live --firmware-binary=false --firmware-chroot=false
+  491  bash: --linux-flavours=686-pae: no se encontró la orden
+  492  root@canaima-popular:/usr/share/canaima-semilla/distro# itecture=i386 --linux-flavours=686-pae 486 --distribution=stable --mode=debian --apt=aptitude --apt-recommends=false --apt-secure=false --bootloader=syslinux --bootstrap=debootstrap --binary-images=iso --archive-areas=main contrib non-free --mirror-bootstrap=http://192.168.10.77/debian --mirror-chroot=http://192.168.10.77/debian --mirror-chroot-security=none --mirror-chroot-backports=none --mirror-binary=http://192.168.10.77/debian --mirror-binary-security=none --mirror-binary-backports=none --mirror-debian-installer=http://192.168.10.77/debian --security=false --backports=false --source=false --iso-volume=cursoasl --iso-publisher=RonaldCaruci --iso-application=canaima-cursoasl --debian-installer=false --win32-loader=false --memtest=none --bootappend-live=boot=live live-config live-config.timezone=America/Caracas live-config.locales=es_VE.UTF-8 live-config.hostname=canaima-cursoasl live-config.username=fenix live-config.user-fullname=fenix live-config.keyboard-layouts=latam live-config.keyboard-model=pc105 live-config.hooks=medium quiet splash vga=791 --parent-mirror-bootstrap=http://192.168.10.77/debian --parent-distribution=stable --parent-archive-areas=main contrib non-free --parent-debian-installer-distribution=stable --parent-mirror-debian-installer=http://192.168.10.77/debian --parent-mirror-debian-installer=http://192.168.10.77/debian --parent-mirror-chroot=http://192.168.10.77/debian --parent-mirror-chroot-security=none --parent-mirror-chroot-updates=none --parent-mirror-chroot-backports=none --parent-mirror-binary=http://192.168.10.77/debian --parent-mirror-binary-security=none --parent-mirror-binary-updates=none --parent-mirror-binary-backports=none --mirror-chroot-updates=none --mirror-binary-updates=none --updates=false --apt-indices=none --cache-indices=false --apt-source-archives=false --system=live --firmware-binary=false --firmware-chroot=false
+  493  lb build
+  494  nano archivo
+  495  ls
+  496  CursoaslBarquisimeto/
+  497  cd CursoaslBarquisimeto/
+  498  ls
+  499  ls
+  500  cd gilberto
+  501  ls
+  502  ls
+  503  clear
+  504  ls
+  505  cd procesaro
+  506  ls
+  507  cd sl
+  508  apt-get source sl
+  509  ls
+  510  iwlist scan
+  511  iwconfig
+  512  iwlist scan
+  513  man top
+  514  fdisk -l
+  515  fdisk
+  516  top man
+  517  man top
+  518  ls
+  519  cd ..
+  520  ls
+  521  nano procesador.txt 
+  522  cd ..
+  523  mkdir canaima-semilla
+  524  cd canaima-semilla
+  525  nano pasos.txt
+  526  cd /usr/share/canaima-semilla
+  527  ls
+  528  cd profiles
+  529  ls
+  530  cd primera-base/
+  531  ls
+  532  cd /home/soporte/CursoaslBarquisimeto/gilberto/procesaro/sl
+  533  cd ..
+  534  cd ..
+  535  ls
+  536  cd canaima-semilla/
+  537  cp /usr/share/canaima-semilla/profiles/primera-base/
+  538* cp /usr/share/canaima-semilla/profiles/primera-base/
+  539  cp -R /usr/share/canaima-semilla/profiles/primera-base/
+  540  cp -R /usr/share/canaima-semilla/profiles/primera-base/ .
+  541  ls
+  542  nano primera-base/profile.conf 
+  543  ls
+  544  cd primera-base/
+  545  ls
+  546  nano profile.com
+  547  nano profile.conf 
+  548  cp profile.conf gilberto.cong
+  549  ls -la
+  550  history
+root@canaima-popular:/home/soporte/CursoaslBarquisimeto/gilberto/canaima-semilla/primera-base# 
+

@@ -1,0 +1,172 @@
+Actividad. Curso de Adminsitracion en Linux
+
+
+- Entrar como root, ejecutar
+
+history -c
+
+
+-Crear un proyecto en github llamado actividadcursoasl
+
+
+ Crear un archivo Examen-(Número de la Cédula de Identidad) con los siguientes datos:
+-Nombre Completo
+-Cédula de Indentidad
+-Dirección de correo electrónico
+-Institución a la que pertenece
+3- agregar este .txt que ha sido modificado con tu nombre y apellido.
+4-hacer un commit
+
+5- Crear 5 archivos llamados y cambiar permisologia
+ -curso1.txt   ---RW-R-X chmod 065 curso1.txt
+ -curso2.txt   RWX-W-RW- chmod 726 curso2.txt
+ -curso3.txt   --X--X--X  chmod 111 curso3.txt
+ -curso4.txt   -W--W-RWX  chmod 227 curso4.txt
+ -curso5.txt   ---RW-R--  chmod 064 curso5.txt
+
+6-Como puedo visualizar las particiones del disco duro
+   fdisk -l
+
+   Disk /dev/sda: 82.0 GB, 81964302336 bytes
+255 heads, 63 sectors/track, 9964 cylinders, total 160086528 sectors
+Units = sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disk identifier: 0x0004c8d7
+
+   Device Boot      Start         End      Blocks   Id  System
+/dev/sda1   *          64    30615677    15307807   83  Linux
+/dev/sda2        30615678    64922469    17153396   83  Linux
+/dev/sda3        64922470    73912621     4495076   82  Linux swap / Solaris
+
+
+7-Como matamos un proceso del computador
+  ps aux |grep libre
+soporte   3407  0.5  0.2  24044  2784 ?        Sl   15:31   0:00 /usr/lib/libreoffice/program/oosplash --writer
+soporte   3428  8.1  6.1 200480 62860 ?        Sl   15:31   0:01 /usr/lib/libreoffice/program/soffice.bin --writer --splash-pipe=5
+root      3440  0.0  0.0   3488   732 pts/0    S+   15:31   0:00 grep --color=auto libre
+
+  kill -9 3407
+  kill -9 3428
+
+
+8-Crear un carpeta llamada openoffice-writer.
+  -abrir writer
+  -guardar la busqueda en archivo llamado writer.txt
+ 
+   mkdir openoffice-writer
+
+
+9-Crear un carpeta llamada procesaro.
+  -guardar la busqueda en archivo llamado procesador.txt
+  
+  mkdir procesador
+  uname -a
+   
+10-Como configuras una interfaz de red con dhcp
+
+
+11-Que sucede cuando ejecutas el
+comando: touch registros
+- Copia el archivo registros al directorio actual.
+
+-Borra el archivo registros.
+-Mueve el archivo registros al directorio actual
+
+12-El comando: more examen
+
+- Nos cambia al directorio examen.
+- Crea el archivo examen el directorio actual.
+- Muestra las primeras líneas del archivo examen
+
+13-crear un carpeta sl
+descargar el paquete fuente de sl, modificar el tren 
+con su nombre generar un nuevo paquete, e instalarlo
+  subir dichos paquetes al servidor de github
+
+  apt-get source sl
+  apt-get install sl
+  dpkg-buildpackage -us -uc
+  
+14-comando para listar redes inalambricas.
+   
+   iwlist
+
+15-como funcionan x11vnc, pasos del cliente y servidor
+   aptitude install x11vnc
+   aptitude install xtightvncviewer 
+   x11vnc -bg -gui
+  
+16- Como agregamos el usuario y gestionamos el cambio de contraseña
+    adduser usua1
+    Añadiendo el usuario `usua1' ...
+Añadiendo el nuevo grupo `usua1' (1001) ...
+Añadiendo el nuevo usuario `usua1' (1001) con grupo `usua1' ...
+Creando el directorio personal `/home/usua1' ...
+Copiando los ficheros desde `/etc/skel' ...
+Introduzca la nueva contraseña de UNIX: 
+Vuelva a escribir la nueva contraseña de UNIX: 
+passwd: contraseña actualizada correctamente
+Cambiando la información de usuario para usua1
+Introduzca el nuevo valor, o pulse INTRO para usar el valor predeterminado
+	Nombre completo []: 
+	Número de habitación []: 
+	Teléfono del trabajo []: 
+	Teléfono de casa []: 
+	Otro []: 
+¿Es correcta la información? [S/n] S
+
+17-crear un carpeta canaima-semilla, copiar un sabor desde primera-base
+  llamarlo con el nombre de ustedes, editarlo todos los perfil personalizado.
+   subir dicha carpeta a github.
+   - agregar un txt, con los pasos para ejecutar la creacion de la .iso
+
+    /usr/share/canaima-semilla/ mkdir canaima-semilla
+    /usr/share/canaima-semilla/apt-get install canaima-semilla
+
+
+
+18- donde se modifican los repositorios en debian, 
+   - cuales son los pasos para ejecutar un repositorio nuevo.
+
+    /etc/apt/sources.list
+   1- Hacer un aptitude update
+   2- luego intentar instalar culquier paquete 
+
+19- Las particiones de un disco fisico se nombran mediante el nombre de dispositivo y el
+número de partición:
+
+    -sda1
+    -hda2
+
+20- Como hago un repositorio con debmirror, comando.
+    apt-get install debmirror
+   
+    para direccionar el repositori
+    -deb-file /home/soporte/debian stable
+    debmirror --host=http.us.debian.org --root=debian 
+
+21- Guardar el history en .txt para verificar todo lo anterior fue realizado por ti.
+
+ 
+
+22- como listo las redes inalambricas.
+
+    iwlist
+
+23- pasos para compilar el kernel
+
+   Ej:
+    - aptitude install linux.tar
+    - tar -xvf linux.tar 
+    - install
+    - cd linux_3.1.
+    - make menuconfig
+24- crear un archivo permiso.txt y que los dueños sean root y soporte., ejecutar cat.
+    chown root:soporte permiso.txt
+    
+
+25- Como matar un procesos usando top.
+
+
+

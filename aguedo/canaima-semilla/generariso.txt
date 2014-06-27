@@ -1,0 +1,4 @@
+1-hacer un: lb config --architecture... (contodas las configuraciones y dependencias necesarias)
+2-hacer un: lb bootstrap
+3-hacer un: lb chroot
+4-hacer un: lb binary 
